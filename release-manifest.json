@@ -2,7 +2,7 @@
   "edition": "2026-11-07",
   "policy": "Explicitly reviewed publication selection; manifest excludes itself.",
   "files": {
-    ".github/workflows/verify.yml": "9af9846f9c5613d340409c0b2c2124ce6acbd2512726f7aa53a2569f8aaa2d43",
+    ".github/workflows/verify.yml": "1b21b123c25ed066fd02787ae9e323e3f10aaba0a6080d527e94ef0b469b9180",
     ".gitignore": "3337a74c09ccf9bfadaee2ec7abd0bc868a6ebd14a956e782bd0c34e9d2dd184",
     "README.md": "e25d20f48441a179f9a5574bfcbfda8c57401dbc1bf450a9338977492ad46cd9",
     "config/research_ontology/ontology-0.1.0.json": "c59864d051e5e2fb93269098ecaa26992dccbebf958b75ddb64e4fc35321a6a9",
