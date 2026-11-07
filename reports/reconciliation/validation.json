@@ -1,0 +1,15 @@
+{
+  "focused_tests_passed": 59,
+  "raw_model_values_correct": 98,
+  "raw_model_values_total": 98,
+  "system_values_correct": 26,
+  "system_values_total": 26,
+  "full_pass": 8,
+  "model_episodes": 8,
+  "history_attempts": 143,
+  "failed_tool_calls": 0,
+  "narrative_claims_passed": 32,
+  "narrative_claims_owner": "system-reviewed facts and templates",
+  "graph_dependency_query_replayed": true,
+  "promotion_allowed": false
+}

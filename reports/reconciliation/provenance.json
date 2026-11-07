@@ -1,0 +1,44 @@
+{
+  "study": "company_reconciliation_v31_2026-10-14",
+  "source_artifacts": [
+    {
+      "source_artifact": "RESULTS.md",
+      "sha256": "9d7a553723c65a94fb0a26ce5536764c46bbe79f42135cf87d9e3a4887c48cbe"
+    },
+    {
+      "source_artifact": "preregistration.md",
+      "sha256": "76e669c467961ca09e5842aa235d92eafce93f64fa6ff5ffec913654fd8ca447"
+    },
+    {
+      "source_artifact": "efficacy/paired-results.json",
+      "sha256": "6c168f6025a22c6108f53949782f16f050f52c51917c9892756d1708d7055263"
+    },
+    {
+      "source_artifact": "validation.json",
+      "sha256": "4f30464a46e28bb2af9eef06256b34e8fdf5293043a084c57363f8198f4fd6c1"
+    },
+    {
+      "source_artifact": "total-model-usage.json",
+      "sha256": "7ba848f91764f1f0403010f2ea55c0ea177f048ade71a6fb34740b636de7b0c3"
+    },
+    {
+      "source_artifact": "review.json",
+      "sha256": "82f27b059292968ace0be20f79fde0cd2ea30e70a7afc52a3053a5d32798c416"
+    }
+  ],
+  "export": "episode-metrics.json contains selected fields only; raw prompts, traces and source filings are excluded",
+  "checked_against_episode_receipts": [
+    "elapsed_seconds",
+    "input_tokens",
+    "cached_input_tokens",
+    "output_tokens",
+    "trace_checks.passed",
+    "mechanical_pass"
+  ],
+  "semantic_review": "Historical controller review plus separate same-family model review; not repeated for this export",
+  "public_source_links": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000000695117000026/amat0730201710-qq32017.htm",
+    "https://www.sec.gov/Archives/edgar/data/820318/000156459015009922/iivi-10q_20150930.htm"
+  ],
+  "source_capture_limitation": "Web text representations, not preserved original HTML/XBRL context identifiers"
+}

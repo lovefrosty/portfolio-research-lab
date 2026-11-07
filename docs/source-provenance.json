@@ -1,0 +1,134 @@
+[
+  {
+    "source_path": "research_ontology/__init__.py",
+    "source_sha256": "c2dc257d5f048f4aeae8107e4a0ba4837b6e499bd5928d764f12902a85b3a7fc",
+    "release_path": "research_ontology/__init__.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/contracts.py",
+    "source_sha256": "32762b8c2747798d56125bb12fa1df45eb85a58e2678cb7542394c082bef9022",
+    "release_path": "research_ontology/contracts.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/policy.py",
+    "source_sha256": "12a53da7887c1897fcc47154e4f459b126b5ac37f55f0ce1a494953296b67095",
+    "release_path": "research_ontology/policy.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/ledger.py",
+    "source_sha256": "3ee777988227043d60e6fbfa96cffa1da0c91e71b699fa29264c5cc24c935f34",
+    "release_path": "research_ontology/ledger.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/projection.py",
+    "source_sha256": "49394d3ba949485e152fcf9f2761fc0092dda0f7eae4c4952f78956dd25c52d9",
+    "release_path": "research_ontology/projection.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/verifier.py",
+    "source_sha256": "7cf66c6effb6df768bd9126dc7aa40a52c1eb2a7dfc4cddaf48c0a0d641b1933",
+    "release_path": "research_ontology/verifier.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_ontology/AGENTS.md",
+    "source_sha256": "6cb2978725b1258776f945f8f39b67cc006c4f9259ae5afbdff8234c855a83c6",
+    "release_path": "research_ontology/AGENTS.md",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/__init__.py",
+    "source_sha256": "1cf164afb1bf918e3fe871a77bc3786e097a20b77d6a587ee47bbc08d6774c67",
+    "release_path": "tests/research_ontology/__init__.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/conftest.py",
+    "source_sha256": "ec825e45d1ade8439f34f16c3bea8188ef04fe0075b4e5256f148939b1163ab4",
+    "release_path": "tests/research_ontology/conftest.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/test_contracts.py",
+    "source_sha256": "272547f180cb5122f5d5d92eccf255a8755aefe785c1ae9a4cbe2c0eeedac282",
+    "release_path": "tests/research_ontology/test_contracts.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/test_policy.py",
+    "source_sha256": "e099d0a13b8b5dd2b57f96cde785da3fc4eb4c85f7936acba805bd72b9fcd152",
+    "release_path": "tests/research_ontology/test_policy.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/test_ledger.py",
+    "source_sha256": "0364e35f80d9c7aabee597112b642cf69305580011fddaa8c75a5db1394016e9",
+    "release_path": "tests/research_ontology/test_ledger.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/test_projection.py",
+    "source_sha256": "db57bffc24f97d3b73101b1d850afcd92522ec66a564d8a257fc360720e91293",
+    "release_path": "tests/research_ontology/test_projection.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/test_verifier.py",
+    "source_sha256": "4c549afd2f4e4c41b3d6c70bd7909223a72c99200982ac9e9f35125ff979e6f5",
+    "release_path": "tests/research_ontology/test_verifier.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_ontology/fixtures/projection_events.json",
+    "source_sha256": "da40a32a15499d197c142094a2462f4b4159eb3b4c3dab24574d36f13d0125b6",
+    "release_path": "tests/research_ontology/fixtures/projection_events.json",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "config/research_ontology/ontology-0.1.0.json",
+    "source_sha256": "c59864d051e5e2fb93269098ecaa26992dccbebf958b75ddb64e4fc35321a6a9",
+    "release_path": "config/research_ontology/ontology-0.1.0.json",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_skill_lab/reconciliation_operands20.py",
+    "source_sha256": "26f32417462d0c87ee07ed091cd3433d612df67dc90f9840062de698f0b2ef74",
+    "release_path": "research_skill_lab/reconciliation_operands20.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_skill_lab/reconciliation_flat30.py",
+    "source_sha256": "04752cdc71414b7520806670973c783b86e36098b8e4659d77545c28659442d0",
+    "release_path": "research_skill_lab/reconciliation_flat30.py",
+    "change": "Removed build_ledger fixture builder, whose historical experiment dependencies are outside this edition. compute_flat is unchanged."
+  },
+  {
+    "source_path": "research_lab/wrds_dated_joins.py",
+    "source_sha256": "2901d4d4de09328c4e23643b6c8657c5ec1486657f1cff0b22b4df9424858cd4",
+    "release_path": "research_lab/wrds_dated_joins.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "research_lab/momentum_boundary.py",
+    "source_sha256": "93edd17bbd2e550666df0272cbd9724db0fd19236b0802ba1e75cfb530d9b260",
+    "release_path": "research_lab/momentum_boundary.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_lab/test_wrds_dated_joins.py",
+    "source_sha256": "3ef4410b255ade988e335423785f0bb56598538fe53c2a92d4b09ba236716213",
+    "release_path": "tests/research_lab/test_wrds_dated_joins.py",
+    "change": "unchanged"
+  },
+  {
+    "source_path": "tests/research_lab/test_momentum_boundary.py",
+    "source_sha256": "bb124354accbb6daac4890830a2eadf4f5e9da6a464e27b249d5e5db81e424c7",
+    "release_path": "tests/research_lab/test_momentum_boundary.py",
+    "change": "unchanged"
+  }
+]

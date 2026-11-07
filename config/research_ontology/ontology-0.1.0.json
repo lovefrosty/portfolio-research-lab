@@ -1,0 +1,378 @@
+{
+  "schema_version": "research_ontology_release_v0",
+  "release_id": "urn:portfolio-research:488a51e1-9c1c-4c56-a424-6dbeb16e0690",
+  "version": "0.1.0",
+  "released_at": "2026-09-01T00:00:00Z",
+  "versioning_policy": {
+    "scheme": "semver",
+    "released_artifacts_immutable": true,
+    "term_ids_are_permanent": true,
+    "term_ids_may_be_reused": false,
+    "released_term_definitions_may_be_rewritten": false,
+    "breaking_term_or_contract_changes_require_major_release": true,
+    "additive_backward_compatible_changes_require_minor_release": true,
+    "documentation_only_repairs_require_patch_release": true
+  },
+  "terms": [
+    {
+      "term_id": "urn:portfolio-research:5debce41-fb54-41b3-a270-10b8d1494b3d",
+      "term_key": "structural",
+      "term_type": "claim_kind",
+      "definition": "A scoped proposition about domain structure or a mechanism without predictive or causal authority."
+    },
+    {
+      "term_id": "urn:portfolio-research:cd3d3262-545d-4061-a32e-83a6606daef2",
+      "term_key": "association",
+      "term_type": "claim_kind",
+      "definition": "A scoped proposition that variables co-vary under declared measurement and conditioning rules."
+    },
+    {
+      "term_id": "urn:portfolio-research:72f47e5b-836e-468f-ab41-d9707c2ee5f3",
+      "term_key": "predictive",
+      "term_type": "claim_kind",
+      "definition": "A prospective proposition about performance against a declared baseline, horizon, metric, and information cutoff."
+    },
+    {
+      "term_id": "urn:portfolio-research:38ab8ddd-a685-406b-beb3-04dca8c637f5",
+      "term_key": "causal",
+      "term_type": "claim_kind",
+      "definition": "A scoped counterfactual proposition with an explicit estimand and identification assumptions."
+    },
+    {
+      "term_id": "urn:portfolio-research:78e4ffa4-609c-43b8-8e3c-d59577e5861c",
+      "term_key": "proxy_adequacy",
+      "term_type": "claim_kind",
+      "definition": "A proposition that a measurable proxy is adequate for one bounded use, scope, and expiry."
+    },
+    {
+      "term_id": "urn:portfolio-research:783abe35-7d56-4ad7-bb10-0a89887016aa",
+      "term_key": "economic_utility",
+      "term_type": "claim_kind",
+      "definition": "A proposition about incremental decision usefulness after declared costs, constraints, capacity, and risk."
+    },
+    {
+      "term_id": "urn:portfolio-research:52e8e6bf-9acd-4ef5-a301-2bc3fae07315",
+      "term_key": "active",
+      "term_type": "lifecycle_value",
+      "definition": "The exact version is not superseded or retracted as of the projection time."
+    },
+    {
+      "term_id": "urn:portfolio-research:6f14f5f3-91c6-4208-8a41-f6c3091efa93",
+      "term_key": "superseded",
+      "term_type": "lifecycle_value",
+      "definition": "A later exact version replaces this version without rewriting it."
+    },
+    {
+      "term_id": "urn:portfolio-research:8f2d2d1c-f988-4848-8844-284799fa541d",
+      "term_key": "retracted",
+      "term_type": "lifecycle_value",
+      "definition": "This exact version is withdrawn while remaining in immutable history."
+    },
+    {
+      "term_id": "urn:portfolio-research:760a620b-9cf4-491a-977a-f16d2f9f5ecb",
+      "term_key": "untested",
+      "term_type": "evidence_value",
+      "definition": "No governed test result has assessed the exact claim version."
+    },
+    {
+      "term_id": "urn:portfolio-research:fec91fbc-78a5-4848-9ab2-fd9307588fce",
+      "term_key": "supported_in_scope",
+      "term_type": "evidence_value",
+      "definition": "Admissible evidence meets the frozen support rule only within its declared scope."
+    },
+    {
+      "term_id": "urn:portfolio-research:fba2cfed-b465-433a-8f81-ea6952c7f029",
+      "term_key": "contradicted_in_scope",
+      "term_type": "evidence_value",
+      "definition": "Admissible evidence meets the frozen disproof rule only within its declared scope."
+    },
+    {
+      "term_id": "urn:portfolio-research:33d7ef41-7bc5-4866-807e-a19e69b2ece5",
+      "term_key": "mixed",
+      "term_type": "evidence_value",
+      "definition": "Admissible scoped findings include material support and contradiction."
+    },
+    {
+      "term_id": "urn:portfolio-research:29f0e9f9-ad4b-4403-a747-88db22029743",
+      "term_key": "insufficient",
+      "term_type": "evidence_value",
+      "definition": "Available evidence does not meet the frozen support or disproof rule."
+    },
+    {
+      "term_id": "urn:portfolio-research:234ce42e-2e1e-4282-8f77-1f57fdd94191",
+      "term_key": "unstable",
+      "term_type": "evidence_value",
+      "definition": "The result materially changes across required windows, controls, or regimes."
+    },
+    {
+      "term_id": "urn:portfolio-research:96965592-78c9-46e5-b7e3-07eafb4bf4ca",
+      "term_key": "proxy_only",
+      "term_type": "evidence_value",
+      "definition": "Evidence assesses a registered proxy and cannot promote the exact construct."
+    },
+    {
+      "term_id": "urn:portfolio-research:69138da8-dc0e-4ec5-8423-1d43af13c9a2",
+      "term_key": "blocked_by_data",
+      "term_type": "evidence_value",
+      "definition": "Required admissible data are unavailable; this is not negative evidence."
+    },
+    {
+      "term_id": "urn:portfolio-research:bb7d9f76-6b45-4812-bedb-e2bf5011ed8b",
+      "term_key": "agent_proposed",
+      "term_type": "authority_value",
+      "definition": "An agent proposed the record without human review authority."
+    },
+    {
+      "term_id": "urn:portfolio-research:0b0b8709-2750-4683-a341-7740b0f62bde",
+      "term_key": "legacy_import_unreviewed",
+      "term_type": "authority_value",
+      "definition": "A shadow import preserves legacy content without conferring new review authority."
+    },
+    {
+      "term_id": "urn:portfolio-research:e6624c4c-a464-4d95-a0f6-245b0052205c",
+      "term_key": "human_reviewed",
+      "term_type": "authority_value",
+      "definition": "An exact human receipt binds the named object and version."
+    },
+    {
+      "term_id": "urn:portfolio-research:d0ae72ed-b2da-4608-8c46-f32be60879ea",
+      "term_key": "pending",
+      "term_type": "decision_value",
+      "definition": "No exact human decision has been recorded."
+    },
+    {
+      "term_id": "urn:portfolio-research:edc0ff27-9e8e-43f8-81e8-b8a99d1dfdd2",
+      "term_key": "kept",
+      "term_type": "decision_value",
+      "definition": "A human receipt keeps the exact object and version within its scope."
+    },
+    {
+      "term_id": "urn:portfolio-research:1cbfbbf1-1aad-4cc9-9265-88e4914cbd2c",
+      "term_key": "rejected_exact",
+      "term_type": "decision_value",
+      "definition": "A human receipt rejects only the exact bound object and version."
+    },
+    {
+      "term_id": "urn:portfolio-research:a1fee107-4339-4f82-b2a4-94cf843c3e21",
+      "term_key": "retyped",
+      "term_type": "decision_value",
+      "definition": "A human receipt requires a newly typed child rather than rewriting meaning."
+    },
+    {
+      "term_id": "urn:portfolio-research:c120bff2-0bdc-4bf4-baa0-0cbb1f55cb1e",
+      "term_key": "revision_requested",
+      "term_type": "decision_value",
+      "definition": "A human requests a governed revision without approving a semantic change."
+    },
+    {
+      "term_id": "urn:portfolio-research:dd0369c3-8d7c-4df2-945e-906ded748047",
+      "term_key": "deferred",
+      "term_type": "decision_value",
+      "definition": "A human postpones the exact decision within the receipt scope."
+    },
+    {
+      "term_id": "urn:portfolio-research:ab8d2df5-1db9-459f-9461-b02c0b3d6294",
+      "term_key": "not_applicable",
+      "term_type": "freshness_value",
+      "definition": "Freshness does not apply to this exact record."
+    },
+    {
+      "term_id": "urn:portfolio-research:7540f7c4-6ee9-4afe-871e-783f59bd4d11",
+      "term_key": "current",
+      "term_type": "freshness_value",
+      "definition": "The record remains within its explicit validity window as of projection time."
+    },
+    {
+      "term_id": "urn:portfolio-research:4323f6d1-5b90-4283-b039-3c4527555388",
+      "term_key": "expired",
+      "term_type": "freshness_value",
+      "definition": "The record is beyond its explicit validity window as of projection time."
+    },
+    {
+      "term_id": "urn:portfolio-research:54776aa1-20d0-40f0-92c8-0d87aa7c6cbf",
+      "term_key": "unknown",
+      "term_type": "freshness_value",
+      "definition": "The record lacks enough timing information to derive freshness."
+    },
+    {
+      "term_id": "urn:portfolio-research:ba7fc95c-5fa4-4fb4-b41e-d9f2d00b3f5c",
+      "term_key": "admissible",
+      "term_type": "admissibility_value",
+      "definition": "Evidence meets source, timing, rights, scope, revision, missingness, and reproducibility requirements."
+    },
+    {
+      "term_id": "urn:portfolio-research:ad7a511f-4597-4eb4-9d17-b16aeb2f7fb3",
+      "term_key": "inadmissible",
+      "term_type": "admissibility_value",
+      "definition": "Evidence fails one or more declared admissibility requirements."
+    },
+    {
+      "term_id": "urn:portfolio-research:cb535604-d523-4353-a905-cb5184699431",
+      "term_key": "blocked",
+      "term_type": "admissibility_value",
+      "definition": "Admissibility cannot be evaluated because required data or rights are blocked."
+    },
+    {
+      "term_id": "urn:portfolio-research:b3169b29-df74-4fa2-adb8-47576000f09c",
+      "term_key": "version_of",
+      "term_type": "derivation_relation",
+      "definition": "A version deterministically identifies its permanent object."
+    },
+    {
+      "term_id": "urn:portfolio-research:796f0c6c-3385-4ac2-9867-fbf625cb18b1",
+      "term_key": "parent_of",
+      "term_type": "derivation_relation",
+      "definition": "An explicitly referenced parent has the named child without state inheritance."
+    },
+    {
+      "term_id": "urn:portfolio-research:3c670809-2942-4f6a-a4f0-2a956b2c7057",
+      "term_key": "instantiates",
+      "term_type": "derivation_relation",
+      "definition": "An exact record instantiates its explicitly referenced organizing record."
+    },
+    {
+      "term_id": "urn:portfolio-research:96b35492-0346-4916-b26f-3a4962633293",
+      "term_key": "assesses",
+      "term_type": "derivation_relation",
+      "definition": "An assessment explicitly targets one exact claim version."
+    },
+    {
+      "term_id": "urn:portfolio-research:48f0bc78-2860-4a55-8454-e4c6617cf27a",
+      "term_key": "references_artifact",
+      "term_type": "derivation_relation",
+      "definition": "A record explicitly names an immutable artifact reference."
+    },
+    {
+      "term_id": "urn:portfolio-research:ea8428ea-98f8-4644-9597-6d56505b6ceb",
+      "term_key": "derived_from",
+      "term_type": "derivation_relation",
+      "definition": "A deterministic view identifies the exact source events from which it was built."
+    },
+    {
+      "term_id": "urn:portfolio-research:014eeff7-56f1-4631-9669-97743bb2d956",
+      "term_key": "supersedes",
+      "term_type": "derivation_relation",
+      "definition": "A new immutable version explicitly replaces an older version without rewriting it."
+    }
+  ],
+  "derivation_rules": [
+    {
+      "rule_id": "version_identity_v0",
+      "relation": "version_of",
+      "version": "0.1.0",
+      "source_record": "versioned_record",
+      "source_field": "object_id",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "parent_reference_v0",
+      "relation": "parent_of",
+      "version": "0.1.0",
+      "source_record": "record_with_parent_ids",
+      "source_field": "parent_claim_ids_or_parent_mechanism_ids",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "claim_instantiation_v0",
+      "relation": "instantiates",
+      "version": "0.1.0",
+      "source_record": "ClaimVersion",
+      "source_field": "mechanism_ids",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "assessment_target_v0",
+      "relation": "assesses",
+      "version": "0.1.0",
+      "source_record": "EvidenceAssessment",
+      "source_field": "claim_version_id",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "artifact_reference_v0",
+      "relation": "references_artifact",
+      "version": "0.1.0",
+      "source_record": "typed_record_with_artifact_refs",
+      "source_field": "artifact_refs",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "projection_provenance_v0",
+      "relation": "derived_from",
+      "version": "0.1.0",
+      "source_record": "DerivedProjection",
+      "source_field": "source_event_ids",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    },
+    {
+      "rule_id": "version_supersession_v0",
+      "relation": "supersedes",
+      "version": "0.1.0",
+      "source_record": "AxisReceipt",
+      "source_field": "superseded_version_id",
+      "deterministic": true,
+      "provenance_required": true,
+      "semantic_authority_added": false,
+      "transitive": false
+    }
+  ],
+  "lifecycle_values": [
+    "active",
+    "superseded",
+    "retracted"
+  ],
+  "evidence_values": [
+    "untested",
+    "supported_in_scope",
+    "contradicted_in_scope",
+    "mixed",
+    "insufficient",
+    "unstable",
+    "proxy_only",
+    "blocked_by_data"
+  ],
+  "authority_values": [
+    "agent_proposed",
+    "legacy_import_unreviewed",
+    "human_reviewed"
+  ],
+  "decision_values": [
+    "pending",
+    "kept",
+    "rejected_exact",
+    "retyped",
+    "revision_requested",
+    "deferred"
+  ],
+  "freshness_values": [
+    "not_applicable",
+    "current",
+    "expired",
+    "unknown"
+  ],
+  "admissibility_values": [
+    "admissible",
+    "inadmissible",
+    "blocked"
+  ],
+  "research_only": true,
+  "execution_allowed": false
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "event_id": "evt-parent-claim",
+    "event_type": "record_appended",
+    "recorded_at": "2026-01-01T00:00:00Z",
+    "payload": {
+      "record_type": "ClaimVersion",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000001",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000101",
+      "ontology_version": "1.0.0",
+      "claim_kind": "causal",
+      "scope": {
+        "geography": "USGC",
+        "sample_size": 24,
+        "raw_body": "must never enter Tier-1 context",
+        "nested": {
+          "logs": ["private log line"],
+          "secret_token": "never expose"
+        }
+      },
+      "artifact_refs": [
+        "urn:portfolio-research:00000000-0000-0000-0000-000000000301"
+      ],
+      "created_at": "2026-01-01T00:00:00Z",
+      "research_only": true,
+      "execution_allowed": false
+    }
+  },
+  {
+    "event_id": "evt-child-claim",
+    "event_type": "record_appended",
+    "recorded_at": "2026-01-02T00:00:00Z",
+    "payload": {
+      "record_type": "ClaimVersion",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000002",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+      "ontology_version": "1.0.0",
+      "claim_kind": "predictive",
+      "scope": {
+        "geography": "USGC",
+        "horizon": "5d",
+        "broker_state": {"positions": ["must not enter context"]}
+      },
+      "parent_claim_ids": [
+        "urn:portfolio-research:00000000-0000-0000-0000-000000000001"
+      ],
+      "artifact_refs": [
+        "urn:portfolio-research:00000000-0000-0000-0000-000000000302"
+      ],
+      "caveats": ["Bounded to the declared horizon."],
+      "relations": [
+        {
+          "relation": "derived_from",
+          "source_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+          "target_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000301",
+          "relation_version": "1.0.0",
+          "rule_id": "fixture.direct-source",
+          "deterministic": true,
+          "provenance_refs": ["evt-parent-claim"]
+        },
+        {
+          "relation": "predicts",
+          "source_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+          "target_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000301",
+          "relation_version": "1.0.0",
+          "rule_id": "fixture.forbidden-prediction"
+        },
+        {
+          "relation": "same_as",
+          "source_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+          "target_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000101",
+          "relation_version": "1.0.0",
+          "rule_id": "fixture.forbidden-equivalence"
+        },
+        {
+          "relation": "derived_from",
+          "source_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+          "target_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000303",
+          "rule_id": "fixture.missing-version",
+          "deterministic": true,
+          "provenance_refs": ["evt-parent-claim"]
+        }
+      ],
+      "created_at": "2026-01-02T00:00:00Z",
+      "research_only": true,
+      "execution_allowed": false
+    }
+  },
+  {
+    "event_id": "evt-child-assessment",
+    "event_type": "record_appended",
+    "recorded_at": "2026-01-03T00:00:00Z",
+    "payload": {
+      "record_type": "EvidenceAssessment",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000201",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000211",
+      "claim_version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+      "evidence": "contradicted_in_scope",
+      "admissibility": "admissible",
+      "freshness": "current",
+      "expires_at": "2026-01-10T00:00:00Z",
+      "scope": {"geography": "USGC", "sample_rows": [1, 2, 3]},
+      "rationale": "The registered threshold failed in the assessed scope.",
+      "artifact_refs": [
+        "urn:portfolio-research:00000000-0000-0000-0000-000000000303"
+      ],
+      "run_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000401",
+      "assessed_at": "2026-01-03T00:00:00Z",
+      "logs": ["raw verifier output"],
+      "research_only": true,
+      "execution_allowed": false
+    }
+  },
+  {
+    "event_id": "evt-child-disposition",
+    "event_type": "record_appended",
+    "recorded_at": "2026-01-04T00:00:00Z",
+    "payload": {
+      "record_type": "DispositionRecord",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000202",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000212",
+      "target_object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000002",
+      "target_version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+      "authority": "human_reviewed",
+      "decision": "rejected_exact",
+      "scope": {"geography": "USGC"},
+      "expires_at": "2026-01-05T00:00:00Z",
+      "decision_at": "2026-01-04T00:00:00Z",
+      "secrets": {"review_token": "never expose"},
+      "research_only": true,
+      "execution_allowed": false
+    }
+  },
+  {
+    "event_id": "evt-child-ambiguity",
+    "event_type": "record_appended",
+    "recorded_at": "2026-01-04T12:00:00Z",
+    "payload": {
+      "record_type": "AmbiguityPacket",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000203",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000213",
+      "target_object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000002",
+      "target_version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+      "question": "Does the release-timing boundary match the frozen hypothesis?",
+      "safe_default": "Do not promote.",
+      "scope": {"geography": "USGC"},
+      "created_at": "2026-01-04T12:00:00Z",
+      "hidden_reasoning": "must never enter Tier-1 context",
+      "research_only": true,
+      "execution_allowed": false
+    }
+  },
+  {
+    "event_id": "evt-future-assessment",
+    "event_type": "record_appended",
+    "recorded_at": "2026-02-01T00:00:00Z",
+    "payload": {
+      "record_type": "EvidenceAssessment",
+      "object_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000204",
+      "version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000214",
+      "claim_version_id": "urn:portfolio-research:00000000-0000-0000-0000-000000000102",
+      "evidence": "supported_in_scope",
+      "admissibility": "admissible",
+      "freshness": "current",
+      "expires_at": "2026-03-01T00:00:00Z",
+      "scope": {"geography": "USGC"},
+      "artifact_refs": [
+        "urn:portfolio-research:00000000-0000-0000-0000-000000000304"
+      ],
+      "assessed_at": "2026-02-01T00:00:00Z",
+      "research_only": true,
+      "execution_allowed": false
+    }
+  }
+]

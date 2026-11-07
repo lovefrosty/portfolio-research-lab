@@ -1,0 +1,16 @@
+{
+  "benchmark_episodes": 8,
+  "review_calls": 3,
+  "total_model_calls": 11,
+  "review_failures": 1,
+  "benchmark_input_tokens": 820403,
+  "review_input_tokens": 83183,
+  "total_input_tokens": 903586,
+  "benchmark_cached_input_tokens": 555776,
+  "review_cached_input_tokens": 19200,
+  "total_cached_input_tokens": 574976,
+  "benchmark_output_tokens": 4576,
+  "review_output_tokens": 2183,
+  "total_output_tokens": 6759,
+  "total_episode_seconds": 117.39212724985555
+}
