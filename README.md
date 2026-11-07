@@ -24,6 +24,8 @@ Five synthetic counterexamples reproduce false acceptances involving missing pro
 
 The fixed pooled model lost narrowly overall, with larger differences by company. This report includes public SEC case data, frozen training splits, saved predictions and an offline replay of all 48 fits.
 
+The [later-study history](reports/agent_study_history/README.md) shows how six subsequent experiments changed the task and assistance. The [archive guide](docs/ARCHIVE_SCOPE.md) explains how 122 report directories were consolidated into this public edition. For a short introduction and worked demonstrations, see [presenting the work](docs/PRESENTING_THE_WORK.md).
+
 ## Run a five-minute example
 
 Python 3.10+ on macOS or Linux. Run from the repository root. These examples use only the standard library, require no credentials, and make no network requests.

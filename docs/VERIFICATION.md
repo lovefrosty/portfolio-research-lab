@@ -1,6 +1,6 @@
 # Release verification
 
-Local check, November 7, 2026: **131 tests passed** using the isolated Python 3.13 verification environment and the pinned `pytest==8.3.5` dependency.
+Local check, November 7, 2026: **134 tests passed** using the isolated Python 3.13 verification environment and the pinned `pytest==8.3.5` dependency.
 
 | Evidence | Scope |
 |---|---|
@@ -10,7 +10,8 @@ Local check, November 7, 2026: **131 tests passed** using the isolated Python 3.
 | 4 publication-check tests | Reject unexpected files, changed bytes, broken local links and symlinks |
 | 3 evaluator-audit tests | Five known false acceptances reproduce, with matching-file, changed-file, valid-record and null-threshold controls |
 | 6 forecast tests | All saved fits, an independent hand calculation, feature and label timing, issuer exclusion, duplicate folds and accounting transitions |
-| Five documented commands | Synthetic reconciliation, synthetic dated joins, evaluator counterexamples, historical-metadata aggregation and forecasting replay |
+| 3 history-summary tests | Keep repetitions distinct from cases; reject duplicated episode identifiers and string-valued pass flags |
+| Six documented commands | Synthetic reconciliation, synthetic dated joins, evaluator counterexamples, historical-metadata aggregation, forecasting replay and phase-specific history aggregation |
 | Gitleaks 8.30.1 | Candidate scan detected no secrets; scanner archive matched its published SHA-256 |
 | Content inspection | Selected text reviewed for personal paths, account information, data payloads and source attribution; synthetic fixture email uses an example domain |
 
@@ -26,6 +27,7 @@ python3 -m examples.dated_join_demo
 python3 -m examples.evaluator_audit_demo
 python3 -m scripts.summarize_reconciliation
 python3 -m scripts.replay_revenue_forecast
+python3 -m scripts.summarize_agent_history
 ```
 
 The checked-in manifest lists exactly the publication files and their hashes, excluding itself. It supports integrity and scope checks, not authenticity or data-rights certification. Development caches are excluded, and tracked files must match the manifest once the repository is initialized.

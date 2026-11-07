@@ -21,3 +21,4 @@ jobs:
       - run: python -m examples.evaluator_audit_demo
       - run: python -m scripts.summarize_reconciliation
       - run: python -m scripts.replay_revenue_forecast
+      - run: python -m scripts.summarize_agent_history

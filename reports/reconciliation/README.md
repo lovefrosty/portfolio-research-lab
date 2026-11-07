@@ -81,6 +81,6 @@ This edition includes selected study metadata and a synthetic demonstration. It 
 
 ## What follows
 
-The result favors keeping the simple baseline in view. A useful next experiment would ask which downstream conclusions a source revision affects, or whether an answer used evidence available at a particular date. A graph could help, but table joins remain a serious baseline. Equivalent evidence, equal tool capabilities, frozen cases and measured preparation effort would be necessary for a stronger comparison.
+The result favors keeping the simple baseline in view. Later archived studies already examined revision impact with and without a shared planner; see the [study history](../agent_study_history/README.md). A stronger follow-up would ask which downstream conclusions a source revision affects, or whether an answer used evidence available at a particular date. A graph could help, but table joins remain a serious baseline. Equivalent evidence, equal tool capabilities, frozen cases and measured preparation effort would be necessary for a stronger comparison.
 
 This study establishes bounded workflow behavior. It does not establish forecast usefulness, trading returns, general agent reliability or owner mastery.

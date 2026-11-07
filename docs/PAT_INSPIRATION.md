@@ -14,6 +14,8 @@ Unlike the presentation's code-generation workflow, this study restricted the ag
 
 ## A concrete next collaboration
 
+The [later-study history](../reports/agent_study_history/README.md) records revision-impact attempts already made after R31. A new collaboration should address their unresolved measurement and assistance boundaries rather than treat this as an untested idea.
+
 Use a source revision to ask which reported conclusions must change. Freeze the source bundle, required outputs and independently reviewed expected answers before inference. Challenge the evaluator with wrong-period, wrong-unit, unsupported-claim and missing-evidence cases before trusting candidate scores.
 
 To compare models, hold the task, tools and evaluator fixed. To compare representations, hold the requested model fixed and account for differences in tool capabilities and preparation effort. Repeated attempts, failures, missing identities, review labor and uncertain costs belong in the record. This is a proposed study, not a completed result.

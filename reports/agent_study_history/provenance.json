@@ -1,0 +1,105 @@
+{
+  "scope": "Selected historical metadata only. Counts recomputed from saved result rows and matched to saved aggregates; original semantic grading not repeated.",
+  "checked_on": "2026-11-07",
+  "source_files": [
+    {
+      "study": "R32",
+      "source_path": "company_change_impact_v32_2026-10-14/results.csv",
+      "sha256": "3a69e9b44e65683820f8f1cae70b57a6d65f344a0cecd36ad40a24902585652b"
+    },
+    {
+      "study": "R32",
+      "source_path": "company_change_impact_v32_2026-10-14/aggregate.json",
+      "sha256": "ed915f6dfca62d9be7bf2461d7dc7996de1e8fb08d52c211a0ca5a5e39fb7fca"
+    },
+    {
+      "study": "R32",
+      "source_path": "company_change_impact_v32_2026-10-14/RESULTS.md",
+      "sha256": "d67092404304d8e411bc677edf70cb735c41d1cf3596957ca4eb20ac41b7db6f"
+    },
+    {
+      "study": "R33",
+      "source_path": "company_change_impact_v33_2026-10-14/results.csv",
+      "sha256": "5d0a1aa6f8e077818ba00ff2b0b7e9e0c932ce9363247c861b77e434b0b8c80c"
+    },
+    {
+      "study": "R33",
+      "source_path": "company_change_impact_v33_2026-10-14/aggregate.json",
+      "sha256": "391abff60367eceeef548db9bdba8a1423483a452d4356c19af5053a723b117e"
+    },
+    {
+      "study": "R33",
+      "source_path": "company_change_impact_v33_2026-10-14/RESULTS.md",
+      "sha256": "2f9d12f9c72ca87ae107d698265fc47f1ccf5067430f057cc15fd336fcb402dd"
+    },
+    {
+      "study": "R34",
+      "source_path": "research_observations_v34_2026-10-14/results.csv",
+      "sha256": "743d14af56dfad3b157617ff70e5b48023b9e8f00cbbce92e3dc9eb6683310cb"
+    },
+    {
+      "study": "R34",
+      "source_path": "research_observations_v34_2026-10-14/aggregate.json",
+      "sha256": "0662292b13ff6f5ae63d08b75668e3760e4b970365e23a109bd3f02fb5131791"
+    },
+    {
+      "study": "R34",
+      "source_path": "research_observations_v34_2026-10-14/RESULTS.md",
+      "sha256": "9489fefd1aa4660afaae6efcab6864cbf4cb1771bf1d8eb4c1ab9e4ee710fa9e"
+    },
+    {
+      "study": "R35",
+      "source_path": "company_research_consistency_v35_2026-10-14/results.csv",
+      "sha256": "e5a8f003bad8116f2a1176c301576070c46fedd8ac97dab83b3ac2b53fb0cde0"
+    },
+    {
+      "study": "R35",
+      "source_path": "company_research_consistency_v35_2026-10-14/aggregate.json",
+      "sha256": "b4c33a152c26108bc3d9f69c9322c76eb79bac7e2537e3ba10b0f70fdd750efb"
+    },
+    {
+      "study": "R35",
+      "source_path": "company_research_consistency_v35_2026-10-14/RESULTS.md",
+      "sha256": "0da68a81e209a74a6abc25675a4539056141dbca910dad3ad9e37eba3615cb1d"
+    },
+    {
+      "study": "R36",
+      "source_path": "company_source_discovery_v36_2026-10-14/results.csv",
+      "sha256": "d2f46b75089089907559d3389479b8fbccdbdd3d0f79c2bbc715ae2119a2e2ad"
+    },
+    {
+      "study": "R36",
+      "source_path": "company_source_discovery_v36_2026-10-14/aggregate.json",
+      "sha256": "880211df7893059e51a8f25f597d163f4492b38517719a2823d8a3b633368a92"
+    },
+    {
+      "study": "R36",
+      "source_path": "company_source_discovery_v36_2026-10-14/RESULTS.md",
+      "sha256": "0b85f9017dc08a90d28c3ce924fd07dadb01141d4c54994d8da877a6e06e083d"
+    },
+    {
+      "study": "R37",
+      "source_path": "mrvl_company_model_v37_2026-10-14/results.csv",
+      "sha256": "d493d6c44811d2c9beb13766705f0b5a9d577f3b23c3da078dbe52d9dde416ad"
+    },
+    {
+      "study": "R37",
+      "source_path": "mrvl_company_model_v37_2026-10-14/aggregate.json",
+      "sha256": "7d06ab917373b3e8a447af33b2652cf49cb98a561824038c62573cf1c62e4076"
+    },
+    {
+      "study": "R37",
+      "source_path": "mrvl_company_model_v37_2026-10-14/README.md",
+      "sha256": "58e547f389c217aca47344d3a9872866a43fa340a1eee5bb733b839294e34bd2"
+    }
+  ],
+  "exported_fields": [
+    "study",
+    "phase",
+    "case",
+    "arm",
+    "repetition",
+    "full_pass"
+  ],
+  "excluded": "Raw answers, original source captures, prompts, traces, paths and unselected metadata."
+}

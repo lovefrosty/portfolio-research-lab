@@ -1,0 +1,778 @@
+[
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "MESA32-value_revision",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "MESA32-value_revision",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "DELTA32-equivalent_units",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "DELTA32-equivalent_units",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "PINE32-missing_value",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "PINE32-missing_value",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "SUMMIT32-scope_mismatch",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "SUMMIT32-scope_mismatch",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "BROOK32-future_revision",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "BROOK32-future_revision",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "COVE32-footnote_only",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R32",
+    "phase": "evaluation",
+    "case": "COVE32-footnote_only",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_A-boundary_revision",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_A-boundary_revision",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_B-equivalent",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_B-equivalent",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_C-missing",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "development",
+    "case": "DEV_R33_C-missing",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_J-boundary_revision",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_J-boundary_revision",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_K-equivalent",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_K-equivalent",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_L-missing",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_L-missing",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_M-scope",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_M-scope",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_N-future",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_N-future",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_O-footnote",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R33",
+    "phase": "evaluation",
+    "case": "EVAL_R33_O-footnote",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "0",
+    "arm": "legacy",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "0",
+    "arm": "explicit",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "1",
+    "arm": "explicit",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "1",
+    "arm": "legacy",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "2",
+    "arm": "legacy",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "2",
+    "arm": "explicit",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "3",
+    "arm": "explicit",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "diagnostic",
+    "case": "3",
+    "arm": "legacy",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "development",
+    "case": "0",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "development",
+    "case": "1",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "development",
+    "case": "2",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "DCF34_A",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "DCF34_A",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "DCF34_B",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "DCF34_B",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "CAT34_A",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "CAT34_A",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "CAT34_B",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "CAT34_B",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "EST34_A",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "EST34_A",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "EST34_B",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R34",
+    "phase": "evaluation",
+    "case": "EST34_B",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": false
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": false
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "MRVL_DCF",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "PANW_CATALYST",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R35",
+    "phase": "real_case_evaluation",
+    "case": "LLY_ESTIMATE",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "development",
+    "case": "DEV_SCOPE",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "development",
+    "case": "DEV_SCOPE",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "development",
+    "case": "DEV_VINTAGE",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "development",
+    "case": "DEV_VINTAGE",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "development_confirmation",
+    "case": "DEV_SCOPE",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "development_confirmation",
+    "case": "DEV_SCOPE",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "development_confirmation",
+    "case": "DEV_VINTAGE",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "development_confirmation",
+    "case": "DEV_VINTAGE",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "DAL_GUIDANCE_DISCOVERY",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": true
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": false
+  },
+  {
+    "study": "R36",
+    "phase": "evaluation",
+    "case": "AMD_CATALYST_DISCOVERY",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": false
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "flat",
+    "repetition": 1,
+    "full_pass": true
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "graph",
+    "repetition": 1,
+    "full_pass": false
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "graph",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "flat",
+    "repetition": 2,
+    "full_pass": true
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "flat",
+    "repetition": 3,
+    "full_pass": false
+  },
+  {
+    "study": "R37",
+    "phase": "model_update_evaluation",
+    "case": "MRVL_Q1_update",
+    "arm": "graph",
+    "repetition": 3,
+    "full_pass": false
+  }
+]

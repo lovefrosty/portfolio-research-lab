@@ -43,4 +43,6 @@ These methods make lessons from private research inspectable without distributin
 
 The original workspace remains intact. Consolidation here means one front door, edited reports, shared examples and a distinction between reusable methods and historical experiments. It does not mean deleting failed runs or moving paths consumed by local tools.
 
+The [archive guide](ARCHIVE_SCOPE.md) groups all 122 report directories into research lines and records their public disposition. The [later-study history](../reports/agent_study_history/README.md) documents revision-impact and source-discovery work that already followed R31; future proposals should build on those attempts.
+
 Future additions should arrive one report at a time: a question, evidence, runnable calculation, result, limits and next decision. [The report index](../reports/README.md) tracks that sequence.
