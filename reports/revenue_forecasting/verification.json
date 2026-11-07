@@ -1,0 +1,15 @@
+{
+  "cases": 68,
+  "fits": 48,
+  "unique_evaluation_outcomes": 24,
+  "maximum_difference_USD_million": 1.8189894035458565e-12,
+  "scope": "Numerical replay of admitted cases. No new forecasts, source acquisition or model selection.",
+  "exact_historical_availability_verified": false,
+  "protected_holdout": false,
+  "checked_on": "2026-11-07",
+  "SEC_fact_references_matched": 204,
+  "unique_SEC_facts_matched": 86,
+  "new_data_acquisition": false,
+  "no_WRDS_inputs": true,
+  "original_numerical_artifacts_copied_unchanged": true
+}

@@ -20,7 +20,7 @@ flowchart LR
 | Research skill lab | Controlled agent experiments, financial reconciliation and tracing | A reconciliation case study, selected historical metrics, two calculation methods and five runnable evaluator counterexamples. |
 | Research ontology | Separate lifecycle, evidence, authority, decision, freshness and admissibility; immutable records and derived views | Core contracts, policy, ledger, projection and verifier, with retained synthetic tests. |
 | Research compiler | Turn evidence bindings and calculation plans into reviewable artifacts | Context only; not shipped as a complete public workflow. |
-| Revenue forecasting | Compare fixed models with latest-value and seasonal baselines using dated company evidence | Next report candidate. The negative aggregate result was numerically reconstructed; the full public package is not included yet. |
+| Revenue forecasting | Compare fixed models with latest-value and seasonal baselines using dated company evidence | Included report with admitted public SEC cases, frozen training splits, numerical replay and company-level errors. Full original source acquisition is outside the replay. |
 | Energy and macro research | Mechanisms, operating analysis and central-bank monitoring | Future report-by-report review. This map makes no current market claims. |
 | Portfolio and execution systems | Diagnostics, broker connections, quoting and operator controls | Outside this release. No personal positions or execution adapters are exported. |
 | Research skills | Repeatable source, calculation and review procedures | A compact review workflow, without autonomous calls or publishing actions. |

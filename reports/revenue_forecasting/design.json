@@ -1,0 +1,37 @@
+{
+  "universe": {
+    "MRVL": "0001835632",
+    "AMAT": "0000006951",
+    "COHR": "0000820318"
+  },
+  "period_window": [
+    "2016-01-01",
+    "2026-06-30"
+  ],
+  "as_of": "2026-10-12",
+  "units": "USD",
+  "originals": "earliest current-period original 10-Q or 10-K; retain all later versions separately",
+  "availability": "filing date plus one calendar day, owner approved assumption",
+  "horizon": "next full native fiscal quarter at previous fiscal quarter end",
+  "features": "seasonal/latest revenue ratio; no issuer or additional regressors",
+  "target": "target/latest revenue ratio, converted to dollars with known latest revenue",
+  "algorithm": "ridge alpha 1, unpenalized intercept, training-only scaling",
+  "feature_rule": "latest available standalone quarter and same fiscal quarter previous fiscal year; no Q4 derivation; no predecessor splicing",
+  "split_rule": "for each issuer and each diagnostic lane, last eight eligible origins with at least 20 available training labels; require all three issuers to have eight; freeze case IDs and training IDs before fitting",
+  "lanes": [
+    "pooled_expanding",
+    "leave_one_issuer_out_expanding"
+  ],
+  "metrics": [
+    "per-issuer MAE USD millions",
+    "per-issuer MAPE percent",
+    "equal-issuer mean MAE and MAPE"
+  ],
+  "protected_holdout": false,
+  "selection_or_tuning_allowed": false,
+  "exact_PIT_verified": false,
+  "execution_allowed": false,
+  "accounting_rule": "Both features and target must share one issuer accounting regime. Pooling within-regime ratios across regimes is an exploratory transfer assumption, not a claim of accounting equivalence.",
+  "evaluation_disposition": "ELIGIBLE_PROXY_ONLY if all coverage, lineage, accounting and timestamp-convention gates pass",
+  "publication_note": "Selected fields from the historical contract. Original full-contract hash remains in the frozen split."
+}

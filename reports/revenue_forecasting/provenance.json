@@ -1,0 +1,78 @@
+{
+  "published_on": "2026-11-07",
+  "study_date": "2026-10-12",
+  "sources": [
+    {
+      "source_path": "dataset-03/cases.json",
+      "published_path": "cases.json",
+      "sha256": "63358138501dcbf580f843094455b70a235e69ad867669984e9ec55404b0ae8f",
+      "transformation": "none"
+    },
+    {
+      "source_path": "dataset-03/frozen-split.json",
+      "published_path": "frozen-split.json",
+      "sha256": "14d2698bc270b6e78fd4b9eda2a1d0209419e54af2ad225874b534f10452cebf",
+      "transformation": "none"
+    },
+    {
+      "source_path": "evaluation-03/predictions.json",
+      "published_path": "predictions.json",
+      "sha256": "e5a49c78e711cc780700ff6589a4e941e4c24cddf68b7a3697f8bf956f2eeed4",
+      "transformation": "none"
+    },
+    {
+      "source_path": "contract-v3.json",
+      "published_path": "design.json",
+      "original_sha256": "e2c1e22cdaee7dba3fb3003f88c8081392f6a1028e8e7831a2719f3e6841ec3e",
+      "published_sha256": "964d5f9e473a5aae66a07b85d8c6a4cba48d88fdf27e180e8cfa30e758f0aa32",
+      "selected_fields": [
+        "universe",
+        "period_window",
+        "as_of",
+        "units",
+        "originals",
+        "availability",
+        "horizon",
+        "features",
+        "target",
+        "algorithm",
+        "feature_rule",
+        "split_rule",
+        "lanes",
+        "metrics",
+        "protected_holdout",
+        "selection_or_tuning_allowed",
+        "exact_PIT_verified",
+        "execution_allowed",
+        "accounting_rule",
+        "evaluation_disposition"
+      ]
+    },
+    {
+      "source_path": "study_v3.py",
+      "sha256": "4fdfed14366b5b938bf32592e60d3cf338cfbb4964cdc50492df783dced2af29",
+      "exported": false
+    },
+    {
+      "source_path": "RESULTS_V3.md",
+      "sha256": "891fb2a1aba205566f93977eabbdc4bc80254aabcae9835f5673b7f088c58efc",
+      "exported": false
+    },
+    {
+      "source_path": "source-ledger.json",
+      "sha256": "ce011ac9c05c80027de7cca699ae834933731bb4fee41c1914f7ab27012358ab",
+      "exported": false
+    },
+    {
+      "source_path": "fiscal-adjudications.json",
+      "sha256": "02b0abd744910a26a05f6659102765a35027741926601f6577d45743d2846ea0",
+      "exported": false
+    },
+    {
+      "source_path": "legacy-verification.json",
+      "sha256": "0031e3e0491bc94fac226c9bcb728b22d77106a6844afe2ae3f4749d5b8cb57e",
+      "exported": false
+    }
+  ],
+  "scope": "Selected public SEC facts and numerical replay; not a replay of all historical source-admission decisions."
+}

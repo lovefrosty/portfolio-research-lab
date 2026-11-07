@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "MRVL-2023-10-28",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2023-07-29",
+    "target_end": "2023-10-28",
+    "n_train": 41,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 30
+    },
+    "actual": 1418.6,
+    "predictions": {
+      "ridge": 1655.6560146337779,
+      "latest": 1321.7,
+      "seasonal": 1537.3
+    },
+    "model": {
+      "mean": 0.8849398612374729,
+      "scale": 0.11327580552301822,
+      "coef": 0.04269346954283723,
+      "intercept_centered": 1.1478246969404025,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-05-04",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2024-02-03",
+    "target_end": "2024-05-04",
+    "n_train": 45,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 34
+    },
+    "actual": 1160.9,
+    "predictions": {
+      "ridge": 1607.9553904519344,
+      "latest": 1418.6,
+      "seasonal": 1321.7
+    },
+    "model": {
+      "mean": 0.8996455814550233,
+      "scale": 0.12024133306061786,
+      "coef": 0.01648501513679703,
+      "intercept_centered": 1.1290867550044388,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-08-03",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2024-05-04",
+    "target_end": "2024-08-03",
+    "n_train": 47,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 36
+    },
+    "actual": 1272.9,
+    "predictions": {
+      "ridge": 1595.2967984009608,
+      "latest": 1418.6,
+      "seasonal": 1340.9
+    },
+    "model": {
+      "mean": 0.9071876265208887,
+      "scale": 0.12310966842191565,
+      "coef": 0.0061343906203137335,
+      "intercept_centered": 1.1226616823093194,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-11-02",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2024-08-03",
+    "target_end": "2024-11-02",
+    "n_train": 50,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 39
+    },
+    "actual": 1516.1,
+    "predictions": {
+      "ridge": 1306.8660900442856,
+      "latest": 1160.9,
+      "seasonal": 1418.6
+    },
+    "model": {
+      "mean": 0.9155819506437345,
+      "scale": 0.1263431349435465,
+      "coef": 0.004297053677384295,
+      "intercept_centered": 1.1153142853260878,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-05-03",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2025-02-01",
+    "target_end": "2025-05-03",
+    "n_train": 54,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 43
+    },
+    "actual": 1895.3,
+    "predictions": {
+      "ridge": 1667.477384189774,
+      "latest": 1516.1,
+      "seasonal": 1160.9
+    },
+    "model": {
+      "mean": 0.9217673437982804,
+      "scale": 0.1287109395435116,
+      "coef": 0.010739198605598818,
+      "intercept_centered": 1.1128670692068847,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-08-02",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2025-05-03",
+    "target_end": "2025-08-02",
+    "n_train": 56,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 45
+    },
+    "actual": 2006.1,
+    "predictions": {
+      "ridge": 1677.5621801231991,
+      "latest": 1516.1,
+      "seasonal": 1272.9
+    },
+    "model": {
+      "mean": 0.9232312895275615,
+      "scale": 0.12672134089383907,
+      "coef": 0.010145246827590007,
+      "intercept_centered": 1.1131947771621031,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-11-01",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2025-08-02",
+    "target_end": "2025-11-01",
+    "n_train": 59,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 48
+    },
+    "actual": 2074.5,
+    "predictions": {
+      "ridge": 2100.3387384942816,
+      "latest": 1895.3,
+      "seasonal": 1516.1
+    },
+    "model": {
+      "mean": 0.9210821167480537,
+      "scale": 0.12540055712167855,
+      "coef": 0.006400073278332912,
+      "intercept_centered": 1.1143661782607823,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2026-05-02",
+    "issuer": "MRVL",
+    "lane": "pooled_expanding",
+    "origin": "2026-01-31",
+    "target_end": "2026-05-02",
+    "n_train": 63,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 52
+    },
+    "actual": 2417.8,
+    "predictions": {
+      "ridge": 2312.6041430207824,
+      "latest": 2074.5,
+      "seasonal": 1895.3
+    },
+    "model": {
+      "mean": 0.9179245107201905,
+      "scale": 0.1227684280919807,
+      "coef": 0.00413868780353813,
+      "intercept_centered": 1.1149218286343088,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-01-28",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2023-10-29",
+    "target_end": "2024-01-28",
+    "n_train": 43,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 32
+    },
+    "actual": 6707.0,
+    "predictions": {
+      "ridge": 7602.102741403443,
+      "latest": 6425.0,
+      "seasonal": 6739.0
+    },
+    "model": {
+      "mean": 0.8892271369464325,
+      "scale": 0.11231964303446433,
+      "coef": 0.03258346239188769,
+      "intercept_centered": 1.1368944574003945,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-04-28",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2024-01-28",
+    "target_end": "2024-04-28",
+    "n_train": 45,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 34
+    },
+    "actual": 6646.0,
+    "predictions": {
+      "ridge": 7370.886340482714,
+      "latest": 6425.0,
+      "seasonal": 6630.0
+    },
+    "model": {
+      "mean": 0.8996455814550233,
+      "scale": 0.12024133306061786,
+      "coef": 0.01648501513679703,
+      "intercept_centered": 1.1290867550044388,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-07-28",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2024-04-28",
+    "target_end": "2024-07-28",
+    "n_train": 47,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 36
+    },
+    "actual": 6778.0,
+    "predictions": {
+      "ridge": 7546.658194934372,
+      "latest": 6707.0,
+      "seasonal": 6425.0
+    },
+    "model": {
+      "mean": 0.9071876265208887,
+      "scale": 0.12310966842191565,
+      "coef": 0.0061343906203137335,
+      "intercept_centered": 1.1226616823093194,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-01-26",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2024-10-27",
+    "target_end": "2025-01-26",
+    "n_train": 52,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 41
+    },
+    "actual": 7166.0,
+    "predictions": {
+      "ridge": 7527.916638306597,
+      "latest": 6778.0,
+      "seasonal": 6707.0
+    },
+    "model": {
+      "mean": 0.9169669153362094,
+      "scale": 0.12408929298983183,
+      "coef": 0.0026204607227614516,
+      "intercept_centered": 1.1091075639837662,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-04-27",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2025-01-26",
+    "target_end": "2025-04-27",
+    "n_train": 54,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 43
+    },
+    "actual": 7100.0,
+    "predictions": {
+      "ridge": 7576.242519993298,
+      "latest": 6778.0,
+      "seasonal": 6646.0
+    },
+    "model": {
+      "mean": 0.9217673437982804,
+      "scale": 0.1287109395435116,
+      "coef": 0.010739198605598818,
+      "intercept_centered": 1.1128670692068847,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-07-27",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2025-04-27",
+    "target_end": "2025-07-27",
+    "n_train": 56,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 45
+    },
+    "actual": 7302.0,
+    "predictions": {
+      "ridge": 7990.133385430426,
+      "latest": 7166.0,
+      "seasonal": 6778.0
+    },
+    "model": {
+      "mean": 0.9232312895275615,
+      "scale": 0.12672134089383907,
+      "coef": 0.010145246827590007,
+      "intercept_centered": 1.1131947771621031,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2026-01-25",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2025-10-26",
+    "target_end": "2026-01-25",
+    "n_train": 61,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 50
+    },
+    "actual": 7012.0,
+    "predictions": {
+      "ridge": 8164.266480393753,
+      "latest": 7302.0,
+      "seasonal": 7166.0
+    },
+    "model": {
+      "mean": 0.9201522743311094,
+      "scale": 0.12380543188383147,
+      "coef": 0.0037621897030979973,
+      "intercept_centered": 1.1162259132011207,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2026-04-26",
+    "issuer": "AMAT",
+    "lane": "pooled_expanding",
+    "origin": "2026-01-25",
+    "target_end": "2026-04-26",
+    "n_train": 63,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 52
+    },
+    "actual": 7910.0,
+    "predictions": {
+      "ridge": 8154.553219898075,
+      "latest": 7302.0,
+      "seasonal": 7100.0
+    },
+    "model": {
+      "mean": 0.9179245107201905,
+      "scale": 0.1227684280919807,
+      "coef": 0.00413868780353813,
+      "intercept_centered": 1.1149218286343088,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2023-12-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2023-09-30",
+    "target_end": "2023-12-31",
+    "n_train": 43,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 32
+    },
+    "actual": 1131.434,
+    "predictions": {
+      "ridge": 1487.5618655930652,
+      "latest": 1240.194,
+      "seasonal": 1370.285
+    },
+    "model": {
+      "mean": 0.8892271369464325,
+      "scale": 0.11231964303446433,
+      "coef": 0.03258346239188769,
+      "intercept_centered": 1.1368944574003945,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-03-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2023-12-31",
+    "target_end": "2024-03-31",
+    "n_train": 45,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 34
+    },
+    "actual": 1208.809,
+    "predictions": {
+      "ridge": 1229.163748965597,
+      "latest": 1053.083,
+      "seasonal": 1240.194
+    },
+    "model": {
+      "mean": 0.8996455814550233,
+      "scale": 0.12024133306061786,
+      "coef": 0.01648501513679703,
+      "intercept_centered": 1.1290867550044388,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-09-30",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2024-06-30",
+    "target_end": "2024-09-30",
+    "n_train": 50,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 39
+    },
+    "actual": 1348.135,
+    "predictions": {
+      "ridge": 1346.3762127099253,
+      "latest": 1208.809,
+      "seasonal": 1053.083
+    },
+    "model": {
+      "mean": 0.9155819506437345,
+      "scale": 0.1263431349435465,
+      "coef": 0.004297053677384295,
+      "intercept_centered": 1.1153142853260878,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-12-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2024-09-30",
+    "target_end": "2024-12-31",
+    "n_train": 52,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 41
+    },
+    "actual": 1434.665,
+    "predictions": {
+      "ridge": 1341.1848272399939,
+      "latest": 1208.809,
+      "seasonal": 1131.434
+    },
+    "model": {
+      "mean": 0.9169669153362094,
+      "scale": 0.12408929298983183,
+      "coef": 0.0026204607227614516,
+      "intercept_centered": 1.1091075639837662,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-03-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2024-12-31",
+    "target_end": "2025-03-31",
+    "n_train": 54,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 43
+    },
+    "actual": 1497.879,
+    "predictions": {
+      "ridge": 1497.4700663281249,
+      "latest": 1348.135,
+      "seasonal": 1208.809
+    },
+    "model": {
+      "mean": 0.9217673437982804,
+      "scale": 0.1287109395435116,
+      "coef": 0.010739198605598818,
+      "intercept_centered": 1.1128670692068847,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-09-30",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2025-06-30",
+    "target_end": "2025-09-30",
+    "n_train": 59,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 48
+    },
+    "actual": 1581.378,
+    "predictions": {
+      "ridge": 1667.5762661222416,
+      "latest": 1497.879,
+      "seasonal": 1348.135
+    },
+    "model": {
+      "mean": 0.9210821167480537,
+      "scale": 0.12540055712167855,
+      "coef": 0.006400073278332912,
+      "intercept_centered": 1.1143661782607823,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-12-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2025-09-30",
+    "target_end": "2025-12-31",
+    "n_train": 61,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 50
+    },
+    "actual": 1685.629,
+    "predictions": {
+      "ridge": 1673.684875772186,
+      "latest": 1497.879,
+      "seasonal": 1434.665
+    },
+    "model": {
+      "mean": 0.9201522743311094,
+      "scale": 0.12380543188383147,
+      "coef": 0.0037621897030979973,
+      "intercept_centered": 1.1162259132011207,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2026-03-31",
+    "issuer": "COHR",
+    "lane": "pooled_expanding",
+    "origin": "2025-12-31",
+    "target_end": "2026-03-31",
+    "n_train": 63,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 52
+    },
+    "actual": 1805.641,
+    "predictions": {
+      "ridge": 1764.6734630046324,
+      "latest": 1581.378,
+      "seasonal": 1497.879
+    },
+    "model": {
+      "mean": 0.9179245107201905,
+      "scale": 0.1227684280919807,
+      "coef": 0.00413868780353813,
+      "intercept_centered": 1.1149218286343088,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2023-10-28",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2023-07-29",
+    "target_end": "2023-10-28",
+    "n_train": 37,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 26
+    },
+    "actual": 1418.6,
+    "predictions": {
+      "ridge": 1688.157278195422,
+      "latest": 1321.7,
+      "seasonal": 1537.3
+    },
+    "model": {
+      "mean": 0.8899685622704394,
+      "scale": 0.11396547675528684,
+      "coef": 0.05149865365282962,
+      "intercept_centered": 1.1538290879056932,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-05-04",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-02-03",
+    "target_end": "2024-05-04",
+    "n_train": 39,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 28
+    },
+    "actual": 1160.9,
+    "predictions": {
+      "ridge": 1632.4211628378466,
+      "latest": 1418.6,
+      "seasonal": 1321.7
+    },
+    "model": {
+      "mean": 0.8969359083910455,
+      "scale": 0.11573509020507863,
+      "coef": 0.03279766243664274,
+      "intercept_centered": 1.1408771650968759,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-08-03",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-05-04",
+    "target_end": "2024-08-03",
+    "n_train": 41,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 30
+    },
+    "actual": 1272.9,
+    "predictions": {
+      "ridge": 1615.8206303504128,
+      "latest": 1418.6,
+      "seasonal": 1340.9
+    },
+    "model": {
+      "mean": 0.9057138465428415,
+      "scale": 0.11950736428926843,
+      "coef": 0.018413228314175828,
+      "intercept_centered": 1.1329366959052787,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2024-11-02",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-08-03",
+    "target_end": "2024-11-02",
+    "n_train": 43,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 32
+    },
+    "actual": 1516.1,
+    "predictions": {
+      "ridge": 1356.9499579354895,
+      "latest": 1160.9,
+      "seasonal": 1418.6
+    },
+    "model": {
+      "mean": 0.9149733389603528,
+      "scale": 0.12498981065086481,
+      "coef": 0.015423770615725686,
+      "intercept_centered": 1.1309925047100438,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-05-03",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-02-01",
+    "target_end": "2025-05-03",
+    "n_train": 45,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 34
+    },
+    "actual": 1895.3,
+    "predictions": {
+      "ridge": 1683.788346809209,
+      "latest": 1516.1,
+      "seasonal": 1160.9
+    },
+    "model": {
+      "mean": 0.9149551549928243,
+      "scale": 0.12252266943768389,
+      "coef": 0.014253843232968664,
+      "intercept_centered": 1.127967168024507,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-08-02",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-05-03",
+    "target_end": "2025-08-02",
+    "n_train": 47,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 36
+    },
+    "actual": 2006.1,
+    "predictions": {
+      "ridge": 1696.85735705298,
+      "latest": 1516.1,
+      "seasonal": 1272.9
+    },
+    "model": {
+      "mean": 0.9169893111300722,
+      "scale": 0.12040179843770113,
+      "coef": 0.013206478932541087,
+      "intercept_centered": 1.1277150711704003,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2025-11-01",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-08-02",
+    "target_end": "2025-11-01",
+    "n_train": 49,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 38
+    },
+    "actual": 2074.5,
+    "predictions": {
+      "ridge": 2110.722506071697,
+      "latest": 1895.3,
+      "seasonal": 1516.1
+    },
+    "model": {
+      "mean": 0.9178709313282434,
+      "scale": 0.11830022132224165,
+      "coef": 0.01211353492574547,
+      "intercept_centered": 1.125738569664795,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "MRVL-2026-05-02",
+    "issuer": "MRVL",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2026-01-31",
+    "target_end": "2026-05-02",
+    "n_train": 51,
+    "training_regimes": {
+      "pre_ASC606": 11,
+      "ASC606": 40
+    },
+    "actual": 2417.8,
+    "predictions": {
+      "ridge": 2327.2324660014087,
+      "latest": 2074.5,
+      "seasonal": 1895.3
+    },
+    "model": {
+      "mean": 0.9180698112079255,
+      "scale": 0.1160503283538023,
+      "coef": 0.011591128403466107,
+      "intercept_centered": 1.1222728087526221,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-01-28",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2023-10-29",
+    "target_end": "2024-01-28",
+    "n_train": 22,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 19
+    },
+    "actual": 6707.0,
+    "predictions": {
+      "ridge": 8077.340766649744,
+      "latest": 6425.0,
+      "seasonal": 6739.0
+    },
+    "model": {
+      "mean": 0.8782763097541143,
+      "scale": 0.14093241352956482,
+      "coef": 0.05925254205021158,
+      "intercept_centered": 1.185449887917883,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-04-28",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-01-28",
+    "target_end": "2024-04-28",
+    "n_train": 24,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 21
+    },
+    "actual": 6646.0,
+    "predictions": {
+      "ridge": 7645.767612980015,
+      "latest": 6425.0,
+      "seasonal": 6630.0
+    },
+    "model": {
+      "mean": 0.8987234621404152,
+      "scale": 0.15144512553833028,
+      "coef": 0.026425037911967136,
+      "intercept_centered": 1.166764160049009,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2024-07-28",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-04-28",
+    "target_end": "2024-07-28",
+    "n_train": 25,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 22
+    },
+    "actual": 6778.0,
+    "predictions": {
+      "ridge": 7784.84997032318,
+      "latest": 6707.0,
+      "seasonal": 6425.0
+    },
+    "model": {
+      "mean": 0.9069703510817979,
+      "scale": 0.1537870906819679,
+      "coef": 0.012425889365786535,
+      "intercept_centered": 1.1565857553572327,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-01-26",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-10-27",
+    "target_end": "2025-01-26",
+    "n_train": 28,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 25
+    },
+    "actual": 7166.0,
+    "predictions": {
+      "ridge": 7717.885511994135,
+      "latest": 6778.0,
+      "seasonal": 6707.0
+    },
+    "model": {
+      "mean": 0.918887819186965,
+      "scale": 0.1538370143437544,
+      "coef": 0.00812984429210575,
+      "intercept_centered": 1.1349341178720247,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-04-27",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-01-26",
+    "target_end": "2025-04-27",
+    "n_train": 30,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 27
+    },
+    "actual": 7100.0,
+    "predictions": {
+      "ridge": 7767.3063172841785,
+      "latest": 6778.0,
+      "seasonal": 6646.0
+    },
+    "model": {
+      "mean": 0.9274005301619758,
+      "scale": 0.15859933051743097,
+      "coef": 0.017849756924272292,
+      "intercept_centered": 1.1399794570144206,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2025-07-27",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-04-27",
+    "target_end": "2025-07-27",
+    "n_train": 31,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 28
+    },
+    "actual": 7302.0,
+    "predictions": {
+      "ridge": 8194.665068742468,
+      "latest": 7166.0,
+      "seasonal": 6778.0
+    },
+    "model": {
+      "mean": 0.9276776328931241,
+      "scale": 0.15602768986328494,
+      "coef": 0.017654982161143293,
+      "intercept_centered": 1.1414911441791145,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2026-01-25",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-10-26",
+    "target_end": "2026-01-25",
+    "n_train": 34,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 31
+    },
+    "actual": 7012.0,
+    "predictions": {
+      "ridge": 8423.168850488477,
+      "latest": 7302.0,
+      "seasonal": 7166.0
+    },
+    "model": {
+      "mean": 0.9194106612720029,
+      "scale": 0.152171965332558,
+      "coef": 0.010822752310912124,
+      "intercept_centered": 1.1491356913231694,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "AMAT-2026-04-26",
+    "issuer": "AMAT",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2026-01-25",
+    "target_end": "2026-04-26",
+    "n_train": 36,
+    "training_regimes": {
+      "pre_ASC606": 3,
+      "ASC606": 33
+    },
+    "actual": 7910.0,
+    "predictions": {
+      "ridge": 8393.896994208539,
+      "latest": 7302.0,
+      "seasonal": 7100.0
+    },
+    "model": {
+      "mean": 0.915553275678401,
+      "scale": 0.1492044616186419,
+      "coef": 0.011847266181576848,
+      "intercept_centered": 1.1450252223244681,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2023-12-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2023-09-30",
+    "target_end": "2023-12-31",
+    "n_train": 26,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 18
+    },
+    "actual": 1131.434,
+    "predictions": {
+      "ridge": 1243.0701791066308,
+      "latest": 1240.194,
+      "seasonal": 1370.285
+    },
+    "model": {
+      "mean": 0.8944275216143064,
+      "scale": 0.0779393269009255,
+      "coef": -0.028309749600858317,
+      "intercept_centered": 1.0787670769209616,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-03-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2023-12-31",
+    "target_end": "2024-03-31",
+    "n_train": 27,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 19
+    },
+    "actual": 1208.809,
+    "predictions": {
+      "ridge": 1061.4103046556788,
+      "latest": 1053.083,
+      "seasonal": 1240.194
+    },
+    "model": {
+      "mean": 0.9043792152715316,
+      "scale": 0.09178505944110138,
+      "coef": -0.02372963778577732,
+      "intercept_centered": 1.0785651359424118,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-09-30",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-06-30",
+    "target_end": "2024-09-30",
+    "n_train": 30,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 22
+    },
+    "actual": 1348.135,
+    "predictions": {
+      "ridge": 1304.62563050229,
+      "latest": 1208.809,
+      "seasonal": 1053.083
+    },
+    "model": {
+      "mean": 0.9143570080371457,
+      "scale": 0.09351685633041669,
+      "coef": -0.025992259800438972,
+      "intercept_centered": 1.0672629545179741,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2024-12-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-09-30",
+    "target_end": "2024-12-31",
+    "n_train": 32,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 24
+    },
+    "actual": 1434.665,
+    "predictions": {
+      "ridge": 1274.507470502751,
+      "latest": 1208.809,
+      "seasonal": 1131.434
+    },
+    "model": {
+      "mean": 0.9166841345753292,
+      "scale": 0.09100867153385796,
+      "coef": -0.02748414899613162,
+      "intercept_centered": 1.0601802405122085,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-03-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2024-12-31",
+    "target_end": "2025-03-31",
+    "n_train": 33,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 25
+    },
+    "actual": 1497.879,
+    "predictions": {
+      "ridge": 1440.361263081738,
+      "latest": 1348.135,
+      "seasonal": 1208.809
+    },
+    "model": {
+      "mean": 0.9259356136569064,
+      "scale": 0.10378085931238033,
+      "coef": -0.0027709711987069247,
+      "intercept_centered": 1.0676284000850942,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-09-30",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-06-30",
+    "target_end": "2025-09-30",
+    "n_train": 36,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 28
+    },
+    "actual": 1581.378,
+    "predictions": {
+      "ridge": 1609.273415091615,
+      "latest": 1497.879,
+      "seasonal": 1348.135
+    },
+    "model": {
+      "mean": 0.9247677798774687,
+      "scale": 0.10382553285467037,
+      "coef": -0.010567894560539345,
+      "intercept_centered": 1.071850091512861,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2025-12-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-09-30",
+    "target_end": "2025-12-31",
+    "n_train": 38,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 30
+    },
+    "actual": 1685.629,
+    "predictions": {
+      "ridge": 1605.2848902550359,
+      "latest": 1497.879,
+      "seasonal": 1434.665
+    },
+    "model": {
+      "mean": 0.9230811558329308,
+      "scale": 0.10204008498427847,
+      "coef": -0.015777321433064272,
+      "intercept_centered": 1.0770731442722425,
+      "alpha": 1
+    }
+  },
+  {
+    "id": "COHR-2026-03-31",
+    "issuer": "COHR",
+    "lane": "leave_one_issuer_out_expanding",
+    "origin": "2025-12-31",
+    "target_end": "2026-03-31",
+    "n_train": 39,
+    "training_regimes": {
+      "pre_ASC606": 8,
+      "ASC606": 31
+    },
+    "actual": 1805.641,
+    "predictions": {
+      "ridge": 1697.3203436467688,
+      "latest": 1581.378,
+      "seasonal": 1497.879
+    },
+    "model": {
+      "mean": 0.9199233347363429,
+      "scale": 0.10258718093062655,
+      "coef": -0.01581191329889397,
+      "intercept_centered": 1.0775212604579059,
+      "alpha": 1
+    }
+  }
+]

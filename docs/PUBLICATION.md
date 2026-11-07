@@ -2,7 +2,7 @@
 
 The public repository starts with fresh history and an explicit file selection. It is not a visibility change or history-preserving copy of the private operational repository.
 
-Included material: selected Python methods and synthetic tests; newly authored documentation and demonstrations; allowlisted historical reconciliation evaluation metadata; artifact hashes and public filing links. Hashes support byte identity, not authenticity or semantic correctness.
+Included material: selected Python methods and synthetic tests; newly authored documentation and demonstrations; allowlisted historical reconciliation evaluation metadata; historical evaluator code excerpts with invented inputs; admitted public SEC revenue cases, frozen splits and saved forecasts; artifact hashes and public filing links. Hashes support byte identity, not authenticity or semantic correctness.
 
 Excluded material: credentials, environment files, account identifiers, holdings, private datasets, WRDS observations, vendor-derived row exports, databases, unrestricted prompts and traces, raw captures, private absolute paths, caches and original Git history.
 

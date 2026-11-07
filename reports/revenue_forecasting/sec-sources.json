@@ -1,0 +1,466 @@
+{
+  "references_verified": 204,
+  "unique_facts": 86,
+  "captures": [
+    {
+      "issuer": "MRVL",
+      "cik": "0001835632",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+      "sha256": "2190d7525c2749e96636b0f95376c5f7d73d9cb47a7452b3a94f70e156ec1169",
+      "capture_date": "2026-10-12",
+      "facts": [
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/16",
+          "accession": "0001835632-21-000032",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563221000032/mrvl-20211030.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/8",
+          "accession": "0001835632-21-000010",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563221000010/mrvl-20210501.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/21",
+          "accession": "0001835632-22-000028",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563222000028/mrvl-20220430.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/12",
+          "accession": "0001835632-21-000022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563221000022/mrvl-20210731.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/25",
+          "accession": "0001835632-22-000041",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563222000041/mrvl-20220730.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/29",
+          "accession": "0001835632-22-000053",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563222000053/mrvl-20221029.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/34",
+          "accession": "0001835632-23-000029",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563223000029/mrvl-20230429.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/38",
+          "accession": "0001835632-23-000038",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563223000038/mrvl-20230729.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/42",
+          "accession": "0001835632-23-000046",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563223000046/mrvl-20231028.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/47",
+          "accession": "0001835632-24-000063",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563224000063/mrvl-20240504.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/51",
+          "accession": "0001835632-24-000142",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563224000142/mrvl-20240803.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/55",
+          "accession": "0001835632-24-000200",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563224000200/mrvl-20241102.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/59",
+          "accession": "0001835632-25-000117",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000117/mrvl-20250503.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/63",
+          "accession": "0001835632-25-000189",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000189/mrvl-20250802.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/66",
+          "accession": "0001835632-25-000197",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000197/mrvl-20251101.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/68",
+          "accession": "0001835632-26-000019",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm"
+        }
+      ]
+    },
+    {
+      "issuer": "AMAT",
+      "cik": "0000006951",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000006951.json",
+      "sha256": "65ecfedd5bfd3768d30286b52badee080c655cc8d1077524bdb6ca8928380fa7",
+      "capture_date": "2026-10-12",
+      "facts": [
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/160",
+          "accession": "0000006951-16-000059",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695116000059/amat731201610-qq32016.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/148",
+          "accession": "0000006951-16-000041",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695116000041/amat131201610-qq12016.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/168",
+          "accession": "0000006951-17-000007",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695117000007/amat0129201710-qq12017.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/166",
+          "accession": "0000006951-16-000068",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695116000068/amat10302016-10k.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/154",
+          "accession": "0000006951-16-000048",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695116000048/amat51201610-qq22016.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/173",
+          "accession": "0000006951-17-000015",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695117000015/amat0430201710-qq22017.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/177",
+          "accession": "0000006951-17-000026",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695117000026/amat0730201710-qq32017.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/180",
+          "accession": "0000006951-17-000038",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695117000038/amat1029201710-kq42017.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/181",
+          "accession": "0000006951-18-000008",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695118000008/amat0128201810-qq12018.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/SalesRevenueNet/units/USD/183",
+          "accession": "0000006951-18-000017",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695118000017/amat0429201810-qq22018.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/25",
+          "accession": "0000006951-18-000029",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695118000029/amat0729201810-qq32018.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/29",
+          "accession": "0000006951-18-000041",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695118000041/amat1028201810-kq42018.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/42",
+          "accession": "0000006951-19-000029",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695119000029/amat0728201910-qq32019.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/32",
+          "accession": "0000006951-19-000008",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695119000008/amat0127201910-qq12019.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/46",
+          "accession": "0000006951-20-000014",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695120000014/amat-20200126.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/44",
+          "accession": "0000006951-19-000046",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695119000046/amat-20191027.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/37",
+          "accession": "0000006951-19-000019",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695119000019/amat0428201910-qq22019.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/48",
+          "accession": "0000006951-20-000028",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695120000028/amat-20200426.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/50",
+          "accession": "0000006951-20-000037",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695120000037/amat-20200726.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/17",
+          "accession": "0000006951-20-000048",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695120000048/amat-20201025.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/51",
+          "accession": "0000006951-21-000013",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695121000013/amat-20210131.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/21",
+          "accession": "0000006951-21-000023",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695121000023/amat-20210502.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/25",
+          "accession": "0000006951-21-000034",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695121000034/amat-20210801.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/30",
+          "accession": "0000006951-22-000011",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695122000011/amat-20220130.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/34",
+          "accession": "0000006951-22-000022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695122000022/amat-20220501.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/38",
+          "accession": "0000006951-22-000032",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695122000032/amat-20220731.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/43",
+          "accession": "0000006951-23-000012",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695123000012/amat-20230129.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/47",
+          "accession": "0000006951-23-000022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695123000022/amat-20230430.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/51",
+          "accession": "0000006951-23-000031",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695123000031/amat-20230730.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/56",
+          "accession": "0000006951-24-000012",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000012/amat-20240128.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/60",
+          "accession": "0000006951-24-000022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000022/amat-20240428.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/64",
+          "accession": "0000006951-24-000032",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000032/amat-20240728.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/68",
+          "accession": "0000006951-25-000011",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000011/amat-20250126.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/72",
+          "accession": "0000006951-25-000024",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/76",
+          "accession": "0000006951-25-000037",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/79",
+          "accession": "0001628280-26-009694",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/81",
+          "accession": "0001628280-26-037227",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm"
+        }
+      ]
+    },
+    {
+      "issuer": "COHR",
+      "cik": "0000820318",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000820318.json",
+      "sha256": "f0120babba2241d77d528471c4bb36564b637a1bdf6a48429624b198b036b800",
+      "capture_date": "2026-10-11",
+      "facts": [
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/129",
+          "accession": "0001564590-16-018663",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459016018663/iivi-10q_20160331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/150",
+          "accession": "0001564590-17-008137",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459017008137/iivi-10q_20170331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/144",
+          "accession": "0001564590-17-000837",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459017000837/iivi-10q_20161231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/161",
+          "accession": "0001564590-18-001697",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459018001697/iivi-10q_20171231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/158",
+          "accession": "0001564590-17-022732",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459017022732/iivi-10q_20170930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/Revenues/units/USD/164",
+          "accession": "0001564590-18-012438",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459018012438/iivi-10q_20180331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/43",
+          "accession": "0001564590-19-017964",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459019017964/iivi-10q_20190331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/29",
+          "accession": "0001564590-18-028645",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459018028645/iivi-10q_20180930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/55",
+          "accession": "0001564590-19-042658",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459019042658/iivi-10q_20190930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/52",
+          "accession": "0001564590-19-032471",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459019032471/iivi-10k_20190630.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/36",
+          "accession": "0001564590-19-002429",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459019002429/iivi-10q_20181231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/61",
+          "accession": "0001564590-20-004069",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000156459020004069/iivi-10q_20191231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/67",
+          "accession": "0000820318-20-000006",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031820000006/iivi-20200331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/74",
+          "accession": "0000820318-20-000023",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031820000023/iivi-20200630.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/76",
+          "accession": "0000820318-20-000029",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031820000029/iivi-20200930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/81",
+          "accession": "0000820318-21-000004",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031821000004/iivi-20201231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/86",
+          "accession": "0000820318-21-000012",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031821000012/iivi-20210331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/92",
+          "accession": "0000820318-21-000017",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031821000017/iivi-20210630.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/93",
+          "accession": "0000820318-21-000022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031821000022/iivi-20210930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/97",
+          "accession": "0000820318-22-000004",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031822000004/iivi-20211231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/101",
+          "accession": "0000820318-22-000010",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031822000010/iivi-20220331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/106",
+          "accession": "0000820318-22-000027",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031822000027/iivi-20220930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/110",
+          "accession": "0000820318-23-000005",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031823000005/iivi-20221231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/114",
+          "accession": "0000820318-23-000009",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031823000009/iivi-20230331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/120",
+          "accession": "0000820318-23-000029",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031823000029/iivi-20230930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/124",
+          "accession": "0000820318-24-000004",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031824000004/iivi-20231231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/128",
+          "accession": "0000820318-24-000009",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031824000009/iivi-20240331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/134",
+          "accession": "0000820318-24-000035",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031824000035/iivi-20240930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/138",
+          "accession": "0000820318-25-000004",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000004/iivi-20241231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/142",
+          "accession": "0000820318-25-000009",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000009/iivi-20250331.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/147",
+          "accession": "0000820318-25-000019",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000019/iivi-20250930.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/149",
+          "accession": "0000820318-26-000006",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000006/iivi-20251231.htm"
+        },
+        {
+          "pointer_in_retained_capture": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/151",
+          "accession": "0000820318-26-000013",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000013/iivi-20260331.htm"
+        }
+      ]
+    }
+  ],
+  "reuse_policy": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+  "api_documentation": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+  "note": "Capture hashes were checked locally; full capture bytes are not included. Current APIs can change, so array indices refer only to the retained snapshots. Accession, concept, dates and value permit matching the disclosed fact."
+}

@@ -20,6 +20,10 @@ The calculation reads reviewed source cells, checks their hashes and units, and 
 
 Five synthetic counterexamples reproduce false acceptances involving missing provenance, writable receipts, duplicated attempts, unread citations and a nonfinite threshold. The offline demonstration preserves historical evaluator behavior and compares it with explicit expected outcomes.
 
+**[Does a peer-revenue model beat repeating the latest revenue?](reports/revenue_forecasting/README.md)**
+
+The fixed pooled model lost narrowly overall, with larger differences by company. This report includes public SEC case data, frozen training splits, saved predictions and an offline replay of all 48 fits.
+
 ## Run a five-minute example
 
 Python 3.10+ on macOS or Linux. Run from the repository root. These examples use only the standard library, require no credentials, and make no network requests.
@@ -59,6 +63,6 @@ Useful next investigations include a fair graph-versus-table comparison for revi
 
 This is an AI-assisted project. Passing tests and generated explanations do not establish the owner's understanding. Implementation evidence, historical results and questions still being learned remain distinct.
 
-Private datasets, WRDS observations, personal holdings, credentials and the original Git history are excluded. Examples are synthetic; experimental metrics are separately labeled. See [publication boundaries](docs/PUBLICATION.md) and [release checks](docs/VERIFICATION.md).
+Private datasets, WRDS observations, personal holdings, credentials and the original Git history are excluded. Demonstration inputs are synthetic; the forecasting report separately includes selected public SEC facts and historical predictions. See [publication boundaries](docs/PUBLICATION.md) and [release checks](docs/VERIFICATION.md).
 
 Research outputs do not authorize trading. No broker execution adapters or open-source license grant are included in this edition.
