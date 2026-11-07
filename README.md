@@ -12,6 +12,8 @@ It grew out of a broader portfolio-management workspace. This public edition bri
 
 In four paired cases, a graph and an equally source-bound flat table both passed. The graph showed no accuracy advantage and consumed more uncached input tokens. The case study explains the comparison, preserves the preceding failed review, and identifies what the result cannot establish.
 
+The central question is how to evaluate an agent on a defined financial task, including whether its evaluator can distinguish a correct answer from convincing but unsupported output. The [PAT inspiration note](docs/PAT_INSPIRATION.md) explains the motivation and the narrower scope of this experiment.
+
 The calculation reads reviewed source cells, checks their hashes and units, and accepts a field identifier instead of model-supplied numbers. Both representations can use those controls.
 
 ## Run a five-minute example
@@ -44,7 +46,7 @@ python3 -m venv .venv
 | Numerical diagnostics | Can a rounding boundary change the sign of a flat price move? | [Boundary rule](research_lab/momentum_boundary.py), [tests](tests/research_lab/test_momentum_boundary.py) |
 | Research review | What should be checked before sharing a result? | [Review skill](skills/review-research-result/SKILL.md) |
 
-The ontology retains its larger contract vocabulary so the selected ledger and validation tests remain meaningful. It is supporting infrastructure, not a required framework for every small analysis. Historical module names are retained for provenance; the examples provide a short route into the code.
+The ontology retains its larger contract vocabulary so the selected ledger and validation tests remain meaningful. Its 73 tests check specified software behavior on fixtures; they do not establish improved research accuracy or investment performance. It is supporting infrastructure, not a required framework for every small analysis. Historical module names are retained for provenance; the examples provide a short route into the code.
 
 ## Work with this project
 

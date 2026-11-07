@@ -16,6 +16,22 @@ Each approach received the same bounded evidence and a calculation tool acceptin
 
 The graph approach resolved nodes and edges and provided a graph-query interface. The flat control resolved a ledger of source-bound operands. Representation and query interface changed together, so this does not isolate a pure graph effect.
 
+### Inputs, agent choices and evaluator responsibilities
+
+![Controller inputs, graph and flat configurations, and external evaluation](study-design.svg)
+
+| Part of the workflow | Responsibility and boundary |
+|---|---|
+| Evidence preparation | The controller selected filing extracts and SEC facts, bound issuer/period/unit meanings, and supplied fixed calculation definitions and reviewed narrative templates. The agent did not independently assemble an unrestricted filing corpus. |
+| Candidate inputs | Both configurations received bounded source evidence and tool contracts. The flat configuration received a reviewed operand ledger; the graph configuration received nodes, edges and bindings. Controller answer keys were separate evaluation material. |
+| Agent decisions | Select relevant fact pairs and reviewed claim IDs, request allowed calculations, and return required scalar values. The calculator accepted field IDs, not replacement operands or formulas. |
+| System output | Availability values, narrative wording, citation locators and explanatory text were system-produced. Correct system text cannot be counted as independently authored model reasoning. |
+| Evaluation | The controller checked answers, source/tool traces and identity/unit/period constraints. A separate model review checked narrative templates before benchmark inference. This was not independent human ground truth. |
+
+All eight benchmark receipts requested `gpt-6-luna`; the provider-served identity was not independently verified. This compares two configurations of the same requested model, not different model families. The graph arm also required a graph query. The implementations are not identical in every safeguard: the graph checks explicit semantic contracts, while the flat calculation depends more heavily on its reviewed ledger.
+
+The diagram is a retrospective explanation of the saved workflow, not a new experiment. These preparation choices make the task narrower and more reproducible, but they also limit how much of the successful outcome can be attributed to the agent.
+
 | Cohort | Company and period | Flat bound | Graph |
 |---|---|---|---|
 | Development | Applied Materials FY2018 Q1 | Pass | Pass |

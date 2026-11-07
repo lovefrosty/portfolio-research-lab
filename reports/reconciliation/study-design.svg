@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="684pt" height="402.48pt" viewBox="0 0 684 402.48" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-07T15:39:54.331658</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 402.48
+L 684 402.48
+L 684 -0
+L 0 -0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.15 199.5768
+L 202.5 199.5768
+Q 209.196 199.5768 209.196 192.924
+L 209.196 59.868
+Q 209.196 53.2152 202.5 53.2152
+L 21.15 53.2152
+Q 14.454 53.2152 14.454 59.868
+L 14.454 192.924
+Q 14.454 199.5768 21.15 199.5768
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #edf2f8; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 235.98 130.2768
+L 417.33 130.2768
+Q 424.026 130.2768 424.026 123.624
+L 424.026 59.868
+Q 424.026 53.2152 417.33 53.2152
+L 235.98 53.2152
+Q 229.284 53.2152 229.284 59.868
+L 229.284 123.624
+Q 229.284 130.2768 235.98 130.2768
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #edf2f8; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 235.98 227.2968
+L 417.33 227.2968
+Q 424.026 227.2968 424.026 220.644
+L 424.026 156.888
+Q 424.026 150.2352 417.33 150.2352
+L 235.98 150.2352
+Q 229.284 150.2352 229.284 156.888
+L 229.284 220.644
+Q 229.284 227.2968 235.98 227.2968
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #edf2f8; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 453.6 199.5768
+L 648.9 199.5768
+Q 655.596 199.5768 655.596 192.924
+L 655.596 59.868
+Q 655.596 53.2152 648.9 53.2152
+L 453.6 53.2152
+Q 446.904 53.2152 446.904 59.868
+L 446.904 192.924
+Q 446.904 199.5768 453.6 199.5768
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #edf2f8; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 21.15 371.4408
+L 316.89 371.4408
+Q 323.586 371.4408 323.586 364.788
+L 323.586 267.768
+Q 323.586 261.1152 316.89 261.1152
+L 21.15 261.1152
+Q 14.454 261.1152 14.454 267.768
+L 14.454 364.788
+Q 14.454 371.4408 21.15 371.4408
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #f4f1ea; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 342 371.4408
+L 648.9 371.4408
+Q 655.596 371.4408 655.596 364.788
+L 655.596 267.768
+Q 655.596 261.1152 648.9 261.1152
+L 342 261.1152
+Q 335.304 261.1152 335.304 267.768
+L 335.304 364.788
+Q 335.304 371.4408 342 371.4408
+z
+" clip-path="url(#pb5ce0750d2)" style="fill: #f4f1ea; stroke: #aeb8c5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="15.57" y="23.832" transform="rotate(-0 15.57 23.832)">R31: what was supplied, what varied, and what was scored</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="28.962" y="82.291725" transform="rotate(-0 28.962 82.291725)">Controller-supplied inputs</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 105.545559)">Selected extracts + SEC facts</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 119.69677)">Issuer, period and unit bindings</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 133.847981)">Fixed formulas and field schema</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 147.999192)">Reviewed narrative claim menu</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 162.150403)">Cases fixed before inference</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="243.792" y="82.291725" transform="rotate(-0 243.792 82.291725)">Flat-table configuration</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(243.792 105.545559)">Reviewed operand ledger</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(243.792 119.69677)">Read / metadata / calculate</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="243.792" y="179.311725" transform="rotate(-0 243.792 179.311725)">Graph configuration</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(243.792 202.565559)">Nodes, edges and bindings</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(243.792 216.71677)">Same tools + graph query</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="461.412" y="82.291725" transform="rotate(-0 461.412 82.291725)">External evaluation</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(461.412 105.545559)">Controller answer checks</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(461.412 119.69677)">Tool trace + source checks</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(461.412 133.847981)">Identity, unit and period checks</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(461.412 147.999192)">Controller / model review</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(461.412 162.150403)">System text scored separately</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 210.794188 105.789063
+Q 218.402563 100.062329 224.581701 95.411365
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 219.74322 96.29968
+L 224.581701 95.411365
+L 222.389264 99.815139
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 210.227741 161.368475
+Q 218.402198 174.904673 225.651914 186.909578
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 225.260592 182.005818
+L 225.651914 186.909578
+L 221.494112 184.28038
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 426.244854 94.246958
+Q 434.906595 100.061728 442.083114 104.879444
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 439.656166 100.600434
+L 442.083114 104.879444
+L 437.203738 104.253597
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 425.705517 188.495635
+Q 434.906477 174.906772 443.104491 162.799157
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 438.815872 165.209085
+L 443.104491 162.799157
+L 442.459262 167.676008
+" style="fill: none; stroke: #536174; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="28.962" y="290.191725" transform="rotate(-0 28.962 290.191725)">What the agent could decide</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 313.445559)">Select relevant fact pairs and reviewed claim IDs.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 327.59677)">Request fixed calculations and return required scalars.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(28.962 341.747981)">Same requested model; served identity unverified.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17243a" x="349.812" y="290.191725" transform="rotate(-0 349.812 290.191725)">What the result establishes</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(349.812 313.445559)">Four paired cases: both configurations passed 4/4.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(349.812 327.59677)">No graph-specific accuracy gain demonstrated.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17243a" transform="translate(349.812 341.747981)">No model ranking or unrestricted research test.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536174" x="21.15" y="248.364" transform="rotate(-0 21.15 248.364)">Representation and query interface changed together; reviewed evidence preparation did substantial work.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb5ce0750d2">
+   <rect x="7.2" y="7.2" width="669.6" height="388.08"/>
+  </clipPath>
+ </defs>
+</svg>
