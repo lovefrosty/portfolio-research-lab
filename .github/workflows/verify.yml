@@ -18,4 +18,5 @@ jobs:
       - run: python -m pytest -q
       - run: python -m examples.reconciliation_demo
       - run: python -m examples.dated_join_demo
+      - run: python -m examples.evaluator_audit_demo
       - run: python -m scripts.summarize_reconciliation

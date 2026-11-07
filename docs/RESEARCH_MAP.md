@@ -17,7 +17,7 @@ flowchart LR
 | Original area | Purpose | Public edition |
 |---|---|---|
 | Research lab | Acquisition, data contracts, historical checks, company and macro studies | Pure dated-join and numerical-boundary methods with synthetic tests. Network adapters and stores remain outside this edition. |
-| Research skill lab | Controlled agent experiments, financial reconciliation and tracing | One edited case study, selected historical metrics and two calculation methods. |
+| Research skill lab | Controlled agent experiments, financial reconciliation and tracing | A reconciliation case study, selected historical metrics, two calculation methods and five runnable evaluator counterexamples. |
 | Research ontology | Separate lifecycle, evidence, authority, decision, freshness and admissibility; immutable records and derived views | Core contracts, policy, ledger, projection and verifier, with retained synthetic tests. |
 | Research compiler | Turn evidence bindings and calculation plans into reviewable artifacts | Context only; not shipped as a complete public workflow. |
 | Revenue forecasting | Compare fixed models with latest-value and seasonal baselines using dated company evidence | Next report candidate. The negative aggregate result was numerically reconstructed; the full public package is not included yet. |
@@ -41,6 +41,6 @@ These methods make lessons from private research inspectable without distributin
 
 ## Consolidation
 
-The original workspace remains intact. Consolidation here means one front door, an edited report, shared examples and a distinction between reusable methods and historical experiments. It does not mean deleting failed runs or moving paths consumed by local tools.
+The original workspace remains intact. Consolidation here means one front door, edited reports, shared examples and a distinction between reusable methods and historical experiments. It does not mean deleting failed runs or moving paths consumed by local tools.
 
 Future additions should arrive one report at a time: a question, evidence, runnable calculation, result, limits and next decision. [The report index](../reports/README.md) tracks that sequence.

@@ -16,6 +16,10 @@ The central question is how to evaluate an agent on a defined financial task, in
 
 The calculation reads reviewed source cells, checks their hashes and units, and accepts a field identifier instead of model-supplied numbers. Both representations can use those controls.
 
+**[Can the evaluator tell evidence from an assertion?](reports/evaluator_audit/README.md)**
+
+Five synthetic counterexamples reproduce false acceptances involving missing provenance, writable receipts, duplicated attempts, unread citations and a nonfinite threshold. The offline demonstration preserves historical evaluator behavior and compares it with explicit expected outcomes.
+
 ## Run a five-minute example
 
 Python 3.10+ on macOS or Linux. Run from the repository root. These examples use only the standard library, require no credentials, and make no network requests.
@@ -23,10 +27,11 @@ Python 3.10+ on macOS or Linux. Run from the repository root. These examples use
 ```sh
 python3 -m examples.reconciliation_demo
 python3 -m examples.dated_join_demo
+python3 -m examples.evaluator_audit_demo
 python3 -m scripts.summarize_reconciliation
 ```
 
-The first calculates an invented $10 million revision with both representations, checks it using rational arithmetic, and rejects a changed source. The second shows why matching effective dates does not prove historical information availability. The third recomputes descriptive totals from historical experiment metadata; it does not rerun the model experiment.
+The first calculates an invented $10 million revision with both representations, checks it using rational arithmetic, and rejects a changed source. The second shows why matching effective dates does not prove historical information availability. The third reproduces five evaluator weaknesses using invented inputs. The fourth recomputes descriptive totals from historical experiment metadata; it does not rerun the model experiment.
 
 To run the tests in an isolated environment:
 

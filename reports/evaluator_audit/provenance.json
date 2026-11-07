@@ -1,0 +1,189 @@
+{
+  "scope": "Historical evaluator code excerpts; synthetic public counterexamples, no private run inputs.",
+  "sources": [
+    {
+      "source_path": "tmp/eval_astra/evals/manifest.py",
+      "source_sha256": "db9f2ace45560ab957ed7cc2da5ef7acd94b8a7203f53aa1e3f7146bcb7524ad",
+      "published_path": "specimens/manifest.py",
+      "published_sha256": "c8b41fdde082a421f012d2a03cffc6bd6d706c97299c10f4f5f12e51c7d7ebcd",
+      "definitions": [
+        {
+          "name": "sha256_bytes",
+          "start_line": 42,
+          "end_line": 43,
+          "sha256": "f362396693241af7add48ea9ca6f895eab0b5434b6d5c120d98681a01c599f53"
+        },
+        {
+          "name": "sha256_file",
+          "start_line": 46,
+          "end_line": 50,
+          "sha256": "fb79a3a8e52f0e5eda8e0cc5b451ae3f915826f856be4aa6b5bd2e5d388db8b6"
+        },
+        {
+          "name": "verify",
+          "start_line": 170,
+          "end_line": 188,
+          "sha256": "e4fb0c0653aef74fb3684ff7a2f38237ca768bb3cc18f6e479873500551addbb"
+        }
+      ]
+    },
+    {
+      "source_path": "tmp/eval_astra/evals/aggregate.py",
+      "source_sha256": "c9192e66cf903cb79ec0901d3d2de54ad4706ef663ef39fb398c194df309f56b",
+      "published_path": "specimens/aggregate.py",
+      "published_sha256": "1c91f0e9ded6474aa395611019c56df8f01d746cdef263b533af6ca40a7c5ed0",
+      "definitions": [
+        {
+          "name": "GroupKey",
+          "start_line": 13,
+          "end_line": 13,
+          "sha256": "19c89fcec76e8eeaa59a26cdab28f9a2b4325d4284be558d15b91ec29fc1b39d"
+        },
+        {
+          "name": "_default_key",
+          "start_line": 16,
+          "end_line": 17,
+          "sha256": "c3c4b8c442c2bb2c6fff74ddfdf4f5c93b2e2213112818de53d374b306daae8e"
+        },
+        {
+          "name": "pass_hat_k",
+          "start_line": 20,
+          "end_line": 46,
+          "sha256": "dfddf51e5caf075b810f2119baaaa2c08080313168e69824b39f24ad2f9a7e9d"
+        }
+      ]
+    },
+    {
+      "source_path": "tmp/eval_astra/evals/trace_report.py",
+      "source_sha256": "ea3f9ddc433340e56cb0fa078dd354d5241297aaa352c6cfd31bdd193ceab5b7",
+      "published_path": "specimens/trace.py",
+      "published_sha256": "27585a4a3bf24c945625737d2cfa12f837eb55bd46fee72df24ecd487f09c523",
+      "definitions": [
+        {
+          "name": "ANSI",
+          "start_line": 33,
+          "end_line": 33,
+          "sha256": "078fe865ce6a5089cbecb104297ad82f5a6dd0ca3dbdda3ac339db2a7c2a038d"
+        },
+        {
+          "name": "WRITE_MARKERS",
+          "start_line": 34,
+          "end_line": 34,
+          "sha256": "1a6d69dcf933459bd7752c8d4ff99aaafdb820b047bcec48e4fbc4d9ea25717e"
+        },
+        {
+          "name": "READ_MARKERS",
+          "start_line": 35,
+          "end_line": 35,
+          "sha256": "235525f18792d0cd8c7b4b2f643f152a4cc9a2b9d9dbffb9c807b4737bdb4a23"
+        },
+        {
+          "name": "SHELL_MARKERS",
+          "start_line": 36,
+          "end_line": 36,
+          "sha256": "f6d80cf99a10ea3a3e198676ca5b22637e000121c50e5ade135767324ed91ab8"
+        },
+        {
+          "name": "SEARCH_MARKERS",
+          "start_line": 37,
+          "end_line": 37,
+          "sha256": "242499afe4130f8dd9ff1072f8ca9c5c254790396d5ed6a8ca49e9e4da8d5cc0"
+        },
+        {
+          "name": "PATH_RE",
+          "start_line": 38,
+          "end_line": 38,
+          "sha256": "717edbca7db8d4a760f2917338f0bc9c8a5b67808cf9940d8eb78309a8812816"
+        },
+        {
+          "name": "DURATION_RE",
+          "start_line": 39,
+          "end_line": 39,
+          "sha256": "da9289a4120292185a6a4f645b9fb9a378d149afefec8f006110af60b8fbd62c"
+        },
+        {
+          "name": "MESSAGES_RE",
+          "start_line": 40,
+          "end_line": 40,
+          "sha256": "be1c62c93dbf5d67e95a7047bb64e6e79259c176a8f60dd85df8718d8e17df34"
+        },
+        {
+          "name": "TraceFacts",
+          "start_line": 43,
+          "end_line": 56,
+          "sha256": "b66da4768a93ef230c2e5df73cee3b2e9b8b03a0ef1cbc424ad907e5f516ae94"
+        },
+        {
+          "name": "parse_trace",
+          "start_line": 59,
+          "end_line": 96,
+          "sha256": "ed734938318fe5a600003841c7a95cbb337cec9326c0de67d81f525ec2c4f285"
+        },
+        {
+          "name": "score_trace",
+          "start_line": 99,
+          "end_line": 142,
+          "sha256": "0fd2d0791a5d1656e27d8141e9f4a4d2002ba4a98c69ab6a4c434668b81546bb"
+        }
+      ]
+    },
+    {
+      "source_path": "research_pipeline/grade.py",
+      "source_sha256": "957d0ad35823dba5ea00d465e15d945f16453037e9f55b1611a160cca05a5655",
+      "published_path": "specimens/grader.py",
+      "published_sha256": "9f3bba37ee18e36b77d1a2a16e5f723dcddf6f41e7cc5c0850ccc9fc401b235b",
+      "definitions": [
+        {
+          "name": "_load_fixture_gate",
+          "start_line": 25,
+          "end_line": 33,
+          "sha256": "0ae92838edb3096b31ae431320d81c6309891ede298ab3e821d1f69b08b4af42"
+        },
+        {
+          "name": "INFRA_PATTERNS",
+          "start_line": 35,
+          "end_line": 49,
+          "sha256": "9f2998bae0fbb3de00e548645820e58b9fd084dc7c2160297df396dddf992a15"
+        },
+        {
+          "name": "INFRA_REGEXES",
+          "start_line": 55,
+          "end_line": 58,
+          "sha256": "b96c6a58f12e951ec1670053675458fcd052e640b34ecca94909c3df3a9f710a"
+        },
+        {
+          "name": "_sha",
+          "start_line": 61,
+          "end_line": 62,
+          "sha256": "e51ee057817aca5d0cf396586e3a5c6c6eedc094fbccece9eeca193a8920e050"
+        },
+        {
+          "name": "grade_cell",
+          "start_line": 65,
+          "end_line": 110,
+          "sha256": "52d7ec510374fadcfe418fcaa3fb33056ef559941f6077fc96a5383f3012d583"
+        }
+      ]
+    },
+    {
+      "source_path": "tmp/agent_matrix/tasks/preregister/gate.py",
+      "source_sha256": "8e171aa000fa380f2a42278222619bfdd3cc40852a9c9d67c00b259e951d45e0",
+      "published_path": "specimens/gate.py",
+      "published_sha256": "603dc2d38924c14bf8541efc8cfdffac8e67e64672f911fa63e75ecbc4f00634",
+      "definitions": [
+        {
+          "name": "REQUIRED",
+          "start_line": 17,
+          "end_line": 17,
+          "sha256": "06b73292fa5bd26be9eab193316c99cf4e2abca008954b969edda936cf9ffcbe"
+        },
+        {
+          "name": "check",
+          "start_line": 20,
+          "end_line": 76,
+          "sha256": "3915795aa5d2556c7c4cb616ec4558f45c131549cd7de293eede091f474baaae"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "Synthetic counterexamples; no model trials or historical exploitation claim.",
+  "reproduced": 5,
+  "total": 5,
+  "cases": [
+    {
+      "id": "C1",
+      "expected": "Unverifiable: required files are absent.",
+      "observed": {
+        "verified": true,
+        "drift": {}
+      },
+      "weakness_reproduced": true
+    },
+    {
+      "id": "C2",
+      "expected": "Artifact can pass; agent invocation is unverified.",
+      "observed": {
+        "verdict": "pass",
+        "receipt_accepted": true,
+        "agent_gate_invocations": 0
+      },
+      "weakness_reproduced": true
+    },
+    {
+      "id": "C3",
+      "expected": "Three-trial reliability unavailable from one unique attempt.",
+      "observed": {
+        "reported_trials": 3,
+        "unique_attempts": 1,
+        "reported_pass_hat_k": 1.0
+      },
+      "weakness_reproduced": true
+    },
+    {
+      "id": "C4",
+      "expected": "Citation alone does not establish a source read.",
+      "observed": {
+        "citation_accepted_as_read": true,
+        "read_markers": 0,
+        "shell_markers": 0
+      },
+      "weakness_reproduced": true
+    },
+    {
+      "id": "C5",
+      "expected": "Reject a nonfinite numeric threshold.",
+      "observed": {
+        "gate_problem_count": 0,
+        "nonfinite_thresholds": 1
+      },
+      "weakness_reproduced": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "checked_on": "2026-11-07",
+  "counterexamples_reproduced": 5,
+  "original_and_extracted_outputs_equal": true,
+  "original_files_unchanged": true,
+  "scope": "Same synthetic counterexamples run against five original modules and published exact-definition extracts. Equality is limited to these cases; not full program equivalence.",
+  "new_model_calls": 0,
+  "historical_submissions_exported": 0
+}
